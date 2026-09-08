@@ -10,7 +10,9 @@ const html = readFileSync(resolve(root, 'index.html'), 'utf8');
 
 const inlined = html
   .replace(/<link rel="stylesheet" href="(src\/[^"]+)">/g, (_, p) => `<style>\n${readFileSync(resolve(root, p), 'utf8')}\n</style>`)
-  .replace(/<script src="((?:src|data)\/[^"]+)"><\/script>/g, (_, p) => `<script>\n${readFileSync(resolve(root, p), 'utf8')}\n</script>`);
+  .replace(/<script src="((?:src|data)\/[^"]+)"><\/script>/g, (_, p) => `<script>\n${readFileSync(resolve(root, p), 'utf8')}\n</script>`)
+  // Analytics only resolves on the Vercel deployment, so the portable bundles ship without it.
+  .replace(/<!-- Vercel Web Analytics[\s\S]*?<script defer src="\/_vercel\/speed-insights\/script\.js"><\/script>/, '');
 
 mkdirSync(resolve(root, 'dist'), { recursive: true });
 writeFileSync(resolve(root, 'dist/narco-atlas.html'), inlined);

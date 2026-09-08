@@ -1,17 +1,22 @@
 {
-  "name": "dux",
+  "name": "narco-atlas",
   "version": "1.0.0",
-  "description": "An interactive atlas of cartel territory in Mexico, 1980–2026: which organization dominated each state in a given year, where the plazas were contested, what happened there, and who the people were.",
-  "main": "index.js",
+  "description": "Interactive atlas of cartel territory in Mexico, 1980-2026",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "node build.mjs",
+    "og": "node tools/gen-og.mjs",
+    "vendor-analytics": "node -e \"const fs=require('fs');const v=require('./node_modules/@vercel/analytics/package.json').version;fs.writeFileSync('vendor/vercel-analytics.mjs','// Vendored from @vercel/analytics@'+v+' (dist/index.mjs).\\n// This site has no bundler, so the browser build is copied in verbatim.\\n// Refresh with: npm run vendor-analytics\\n'+fs.readFileSync('node_modules/@vercel/analytics/dist/index.mjs','utf8'))\"",
+    "start": "python3 -m http.server 8765"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@vercel/analytics": "^2.0.1",
     "d3-geo": "^3.1.1",
     "sharp": "^0.33.5",
     "topojson-client": "^3.1.0"
-  }
+  },
+  "private": true
 }

@@ -44,8 +44,15 @@
 <script src="data/stats.js"></script>
 <script src="data/narratives.js"></script>
 <script src="src/app.js"></script>
-<!-- Vercel Web Analytics and Speed Insights. These endpoints exist only on Vercel; elsewhere they 404 harmlessly. -->
-<script defer src="/_vercel/insights/script.js"></script>
+<!-- Vercel Web Analytics via the vendored @vercel/analytics browser build, plus Speed Insights.
+     Both talk to endpoints that exist only on Vercel; elsewhere they fail quietly. -->
+<script type="module">
+  import { inject, track } from './vendor/vercel-analytics.mjs';
+  inject({ mode: location.hostname === 'localhost' ? 'development' : 'production' });
+  // The atlas is one page, so pageviews alone say nothing about what people actually explore.
+  window.narcoTrack = (name, data) => { try { track(name, data); } catch (e) { /* analytics is never load-bearing */ } };
+  window.dispatchEvent(new Event('narco-analytics-ready'));
+</script>
 <script defer src="/_vercel/speed-insights/script.js"></script>
 </body>
 </html>

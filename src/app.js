@@ -147,6 +147,10 @@
   const orgColor = id => { const o = orgOf(id); return isDark() ? o.color : o.colorLight; };
 
   // ------------------------------------------------------------------ DOM
+  // Analytics: which years, groups and people people actually open. No personal data, and the
+  // page works identically when the tracker is absent or blocked.
+  const track = (name, data) => { try { if (window.narcoTrack) window.narcoTrack(name, data); } catch (e) { /* never load-bearing */ } };
+
   const app = document.getElementById('app');
   app.innerHTML = `
     <header class="topbar">
@@ -472,8 +476,10 @@
       <div class="legend-key"><span class="hatch-demo"></span><span>striped: actively contested by the striped group</span><span class="int-demo"><i style="opacity:.3"></i><i style="opacity:.55"></i><i style="opacity:.8"></i><i></i></span><span>brighter fill: more violent (1–5)</span></div>`;
     $('#legend').classList.toggle('open', S.legendOpen);
   }
+  let lastEraKey = null;
   function renderEra() {
     const e = eraAt(S.year);
+    if (e.key !== lastEraKey) { if (lastEraKey !== null) track('chapter', { chapter: e.title, years: `${e.from}-${e.to}` }); lastEraKey = e.key; }
     const body = (e.narrative || 'Narrative for this chapter is being compiled.').split(/\n\s*\n/).map(p => `<p>${esc(p)}</p>`).join('');
     $('#era').innerHTML = `
       <div class="era-nav" role="tablist" aria-label="Chapters">${ERAS.map(x => `<button role="tab" data-act="set-year" data-year="${x.from}" class="${x.key === e.key ? 'on' : ''}" title="${esc(x.title)} (${x.from}–${x.to})"><span>${String(x.from).slice(2)}</span></button>`).join('')}</div>
@@ -500,6 +506,13 @@
 
   // ------------------------------------------------------------------ inspector
   function pin(sel) {
+    if (sel && (!S.pinned || S.pinned.kind !== sel.kind || S.pinned.id !== sel.id)) {
+      const label = sel.kind === 'state' ? (C.STATES[sel.id] || sel.id)
+        : sel.kind === 'org' ? orgOf(sel.id).short
+        : sel.kind === 'figure' ? ((FIG_BY_ID.get(sel.id) || {}).name || sel.id)
+        : ((EV_BY_ID.get(sel.id) || {}).title || sel.id);
+      track('open', { kind: sel.kind, name: String(label).slice(0, 60), year: S.year });
+    }
     S.pinned = sel;
     if (sel && sel.kind === 'event') { const e = EV_BY_ID.get(sel.id); if (e && e.y !== S.year) { setYear(e.y, true, true); } }
     renderInspector(); applyHighlight(); renderPlazas(); renderEventMarkers(); updateHash();
@@ -831,6 +844,7 @@
   }
   function play() {
     if (S.playing) return;
+    track('play', { from: S.year, speed: S.speed });
     clearTimeout(S.timer);
     if (S.year >= YMAX) S.year = YMIN - 1;
     S.playing = true; $('#play').classList.add('on'); $('#play').innerHTML = '<svg viewBox="0 0 24 24"><path d="M8 5v14M16 5v14"/></svg>'; $('#play').setAttribute('aria-label', 'Pause');
@@ -893,7 +907,7 @@
     }
     else if (a === 'toggle-era') { S.eraEvents = !S.eraEvents; $('#tg-era').classList.toggle('on', S.eraEvents); renderEventMarkers(); }
     else if (a === 'zoom') { const d = b.dataset.dir; if (d === 'reset') svg.transition().duration(500).call(zoom.transform, d3.zoomIdentity); else svg.transition().duration(300).call(zoom.scaleBy, d === 'in' ? 1.6 : 1 / 1.6); }
-    else if (a === 'open') openModal(b.dataset.modal);
+    else if (a === 'open') { track('panel', { panel: b.dataset.modal }); openModal(b.dataset.modal); }
     else if (a === 'theme') toggleTheme();
     else if (a === 'mob-tab') showMobTab(b.dataset.tab);
   });
@@ -914,7 +928,7 @@
     const b = ev.target.closest('[data-act]'); if (!b) return;
     const a = b.dataset.act;
     if (a === 'close') closeModal();
-    else if (a === 'search-pick') { const r = searchResults[+b.dataset.i]; closeModal(); if (r) pin(r.sel); }
+    else if (a === 'search-pick') { const r = searchResults[+b.dataset.i]; closeModal(); if (r) { track('search-pick', { kind: r.sel.kind }); pin(r.sel); } }
     else if (a === 'pin-figure') { closeModal(); pin({ kind: 'figure', id: b.dataset.id }); }
     else if (a === 'pin-org') { closeModal(); pin({ kind: 'org', id: b.dataset.id }); }
     else if (a === 'pin-state') { closeModal(); pin({ kind: 'state', id: b.dataset.id }); }
