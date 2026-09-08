@@ -24,6 +24,24 @@ const outputs = fs.readdirSync(tasksDir).filter(f => f.endsWith('.output')).map(
   try { const j = JSON.parse(fs.readFileSync(path.join(tasksDir, f), 'utf8')); return { f, j, mtime: fs.statSync(path.join(tasksDir, f)).mtimeMs }; } catch (e) { return null; }
 }).filter(x => x && x.j && x.j.result);
 
+// A workflow only writes its .output when the whole run finishes. Agents that already returned are
+// recorded in journal.jsonl, so read those too and treat them as loose batches to fill any gap.
+const loose = { figures: [], orgs: [], states: [], events: [] };
+const wfDir = process.env.WF_DIR || path.join(process.env.HOME, '.claude/projects/-Users-dakshinsiva-dux/a4c2426b-00c0-46d0-97ed-b6fb572c7184/subagents/workflows');
+if (fs.existsSync(wfDir)) {
+  for (const run of fs.readdirSync(wfDir)) {
+    const j = path.join(wfDir, run, 'journal.jsonl');
+    if (!fs.existsSync(j)) continue;
+    for (const line of fs.readFileSync(j, 'utf8').trim().split('\n')) {
+      let e; try { e = JSON.parse(line); } catch (err) { continue; }
+      const r = e && e.type === 'result' && e.result;
+      if (!r) continue;
+      for (const k of ['figures', 'orgs', 'states', 'events']) if (Array.isArray(r[k]) && r[k].length) loose[k].push({ items: r[k], verified: Array.isArray(r.corrections) });
+    }
+  }
+  console.log(`journals: ${Object.entries(loose).map(([k, v]) => `${k}=${v.length}`).join(' ')} loose batches`);
+}
+
 const score = {
   events: r => (r.eras || []).reduce((n, e) => n + (e.result ? (e.result.verified ? 2 : 1) : 0), 0),
   territory: r => (r.regions || []).reduce((n, e) => n + (e.result ? (e.result.verified ? 2 : 1) : 0), 0) + (r.stats ? 1 : 0),
@@ -123,9 +141,17 @@ if (OR) {
     console.log(`  figures ${g.group}: ${b.items.length} (${b.verified ? 'fact-checked' : 'unverified'})`);
     b.items.forEach(f => figs.push(Object.assign({}, f, { verified: b.verified })));
   });
+  // Fill in from journal batches for figure groups the finished output did not carry.
+  if (!figs.length && loose.figures.length) {
+    const best = loose.figures.sort((a, b) => (b.verified ? 1 : 0) - (a.verified ? 1 : 0));
+    best.forEach(b => b.items.forEach(f => figs.push(Object.assign({}, f, { verified: b.verified }))));
+    console.log(`  figures: recovered ${figs.length} from ${loose.figures.length} journal batches`);
+  }
   if (figs.length) {
     const fseen = new Set();
-    write('figures', 'PLAZA_FIGURES', figs.filter(f => { if (fseen.has(f.id)) return false; fseen.add(f.id); return true; }));
+    const deduped = figs.filter(f => { const k = f.id || f.name; if (fseen.has(k)) return false; fseen.add(k); return true; });
+    write('figures', 'PLAZA_FIGURES', deduped);
+    console.log(`  figures: ${deduped.length} unique (${deduped.filter(f => f.verified).length} fact-checked)`);
   } else console.log('  figures: none (fallback kept)');
 }
 const orgs = Array.from(orgById.values()).map(o => { const c = Object.assign({}, o); delete c._fallback; return c; });
