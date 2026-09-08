@@ -131,7 +131,7 @@
   // ------------------------------------------------------------------ state
   const S = {
     year: YMIN, playing: false, speed: 1, timer: null,
-    hover: null, pinned: null, highlightOrg: null, eraEvents: false, zoomK: 1,
+    hover: null, pinned: null, highlightOrg: null, eraEvents: false, zoomK: 1, legendOpen: true,
     figFilter: { q: '', org: '' },
   };
   const themeName = () => getComputedStyle(document.documentElement).getPropertyValue('--theme-name').trim() || 'light';
@@ -445,9 +445,10 @@
     const row = CONTROL[S.year - YMIN];
     const pres = PRESENCE[S.year - YMIN];
     const ids = Object.keys(pres).filter(k => k !== 'year').sort((a, b) => (row[b] || 0) - (row[a] || 0) || (pres[b] || 0) - (pres[a] || 0));
-    $('#legend').innerHTML = `<div class="eyebrow"><span>Who holds what · ${S.year}</span><span>states</span></div>
+    $('#legend').innerHTML = `<button class="legend-head" data-act="legend-toggle" aria-expanded="${S.legendOpen ? 'true' : 'false'}"><span class="eyebrow">Who holds what · ${S.year}</span><span class="eyebrow n">${ids.length}</span><span class="chev" aria-hidden="true"></span></button>
       <div class="legend-list">${ids.map(id => `<button data-act="hl-org" data-id="${id}" class="${S.highlightOrg === id ? 'on' : ''}"><i class="sw" style="background:${orgColor(id)}"></i><span>${esc(orgOf(id).short)}</span><span class="n">${row[id] || 0}<span class="muted">/${pres[id]}</span></span><span class="bar"><i style="width:${(row[id] || 0) / 32 * 100}%;background:${orgColor(id)}"></i></span></button>`).join('')}</div>
       <div class="legend-key"><span class="hatch-demo"></span><span>striped: actively contested by the striped group</span><span class="int-demo"><i style="opacity:.3"></i><i style="opacity:.55"></i><i style="opacity:.8"></i><i></i></span><span>brighter fill: more violent (1–5)</span></div>`;
+    $('#legend').classList.toggle('open', S.legendOpen);
   }
   function renderEra() {
     const e = eraAt(S.year);
@@ -859,6 +860,7 @@
     else if (a === 'pin-figure') pin({ kind: 'figure', id: b.dataset.id });
     else if (a === 'unpin') pin(null);
     else if (a === 'hl-org') { S.highlightOrg = S.highlightOrg === b.dataset.id ? null : b.dataset.id; applyHighlight(); renderLegend(); if (S.highlightOrg && ev.detail === 2) pin({ kind: 'org', id: b.dataset.id }); }
+    else if (a === 'legend-toggle') { S.legendOpen = !S.legendOpen; $('#legend').classList.toggle('open', S.legendOpen); b.setAttribute('aria-expanded', S.legendOpen ? 'true' : 'false'); }
     else if (a === 'toggle-era') { S.eraEvents = !S.eraEvents; $('#tg-era').classList.toggle('on', S.eraEvents); renderEventMarkers(); }
     else if (a === 'zoom') { const d = b.dataset.dir; if (d === 'reset') svg.transition().duration(500).call(zoom.transform, d3.zoomIdentity); else svg.transition().duration(300).call(zoom.scaleBy, d === 'in' ? 1.6 : 1 / 1.6); }
     else if (a === 'open') openModal(b.dataset.modal);
@@ -923,6 +925,7 @@
 
   // ------------------------------------------------------------------ boot
   readHash();
+  if (window.innerWidth <= 920) S.legendOpen = false;
   buildPatterns();
   layoutMap();
   layoutTimeline();
