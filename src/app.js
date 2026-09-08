@@ -593,7 +593,7 @@
     const f = FIG_BY_ID.get(id); if (!f) return '<div class="empty">Figure not found.</div>';
     const evs = EVENTS.filter(e => (e.figures || []).some(n => figByName(n) === f));
     return `
-      <div class="eyebrow">${f.born ? `b. ${f.born}` : ''}${f.died ? ` · d. ${f.died}` : ''}${f.state && C.STATES[f.state] ? ` · ${esc(C.STATES[f.state])}` : ''}</div>
+      <div class="eyebrow">${f.born ? `b. ${f.born}` : ''}${f.died ? ` · d. ${f.died}` : ''}${f.state ? ` · ${esc(placeName(f.state))}` : ''}</div>
       <h2>${esc(f.name)}</h2>
       ${f.alias ? `<div class="muted" style="font-family:var(--f-serif);font-style:italic;font-size:15px">“${esc(f.alias)}”</div>` : ''}
       <div class="chips"><span class="pill ${statusClass(f.status_2026)}">${esc(f.status_2026 || 'status unknown')}</span></div>

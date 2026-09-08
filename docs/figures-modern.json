@@ -1,0 +1,954 @@
+[
+  {
+    "id": "nemesio_oseguera_cervantes",
+    "name": "Nemesio Rubén Oseguera Cervantes",
+    "alias": "El Mencho",
+    "cartels": ["milenio", "cjng"],
+    "born": 1966,
+    "died": 2026,
+    "role": "Founder and supreme leader of the Cártel de Jalisco Nueva Generación (CJNG) from 2010 until his death",
+    "status_2026": "Killed 22 February 2026 during an army capture operation in Tapalpa, Jalisco; died of gunshot wounds during helicopter transfer",
+    "bio": "Born 17 July 1966 in the hamlet of Naranjo de Chila, Aguililla, Michoacán, Oseguera worked avocado fields before migrating illegally to California, where a US federal court convicted him of heroin distribution in 1994; he served roughly three years and was deported. Back in Mexico he served as a municipal police officer in Jalisco before joining the Milenio Cartel, the Valencia family organisation from Michoacán. When Milenio fractured in 2009-2010 after the fall of its leadership, Oseguera led the breakaway faction 'Los Torcidos', which by 2011 had rebranded as the Cártel de Jalisco Nueva Generación and announced itself with mass killings of Zetas in Veracruz. Marriage to Rosalinda González Valencia tied him to Los Cuinis, the money-laundering network that financed CJNG's expansion. Under his command the group spread to a majority of Mexican states, downed a military helicopter with an RPG in Jalisco in May 2015, attempted the assassination of Mexico City police chief Omar García Harfuch in June 2020, and became the leading fentanyl and methamphetamine exporter alongside Sinaloa. The US eventually posted a $15 million reward for him. On 22 February 2026 the army, acting on intelligence gathered by monitoring a romantic partner, cornered him at a gated property in Tapalpa, Jalisco; he fled into the woods with bodyguards, was critically wounded in the gunfight and died in the air en route to hospital.",
+    "notable": [
+      "Convicted of heroin distribution in the United States in 1994 and deported after serving about three years",
+      "Served as a police officer in Jalisco before joining the Milenio Cartel",
+      "CJNG shot down a Mexican Army helicopter with a rocket-propelled grenade on 1 May 2015 in Jalisco",
+      "Carried a US State Department reward of up to $15 million, the highest ever posted for a Mexican trafficker",
+      "Killed on 22 February 2026 at Tapalpa, Jalisco, in an army/National Guard/Air Force operation supported by US intelligence",
+      "His death triggered roughly 250 coordinated roadblocks across 20 states and the deaths of about 25 National Guard personnel in reprisal attacks"
+    ],
+    "state": "JAL",
+    "lat": 19.9086,
+    "lng": -103.7639,
+    "sources": [
+      "https://insightcrime.org/mexico-organized-crime-news/nemesio-oseguera-ramos-alias-el-mencho/",
+      "https://en.wikipedia.org/wiki/2026_Jalisco_operation",
+      "https://www.pbs.org/newshour/world/mexican-army-kills-jalisco-new-generation-cartel-leader-el-mencho-during-operation-to-capture-him",
+      "https://www.aljazeera.com/news/2026/2/24/with-el-mencho-killed-whats-next-for-mexico-and-the-jalisco-cartel"
+    ]
+  },
+  {
+    "id": "juan_carlos_valencia_gonzalez",
+    "name": "Juan Carlos Valencia González",
+    "alias": "El 03",
+    "cartels": ["cjng"],
+    "born": 1984,
+    "died": 0,
+    "role": "US-born stepson of El Mencho; commander of CJNG's Grupo Élite and, since 2026, the cartel's overall leader",
+    "status_2026": "Fugitive; named overall CJNG leader by the US National Counterterrorism Center on 8 July 2026; $5 million US reward outstanding",
+    "bio": "Born 12 September 1984 in Santa Ana, California, Valencia González holds both US and Mexican citizenship, making him the first American national credibly identified as the head of a major Mexican cartel. He is the son of Armando Valencia Cornelio, a founder of the Milenio Cartel, and of Rosalinda González Valencia of the Los Cuinis network; when his mother married Nemesio Oseguera Cervantes he became El Mencho's stepson and half-brother to Rubén Oseguera González. US authorities have tracked him since at least 2007. His standing inside the CJNG rose sharply after the 2015 arrest of El Menchito, when he absorbed part of his half-brother's portfolio, and he is credited with founding and running the Grupo Élite, also branded Fuerzas Especiales Mencho, the enforcement wing that spearheaded CJNG's campaigns in Guanajuato and central Mexico. A federal grand jury in the District of Columbia indicted him in October 2020 on drug trafficking and weapons charges, and the State Department posted a $5 million reward on 1 December 2021. After El Mencho was killed in February 2026 he emerged from a crowded field of contenders, and on 8 July 2026 the US National Counterterrorism Center's updated Counterterrorism Guide listed him as CJNG's leader, with Julio Alberto Castillo Rodríguez 'El Chorro' and Gonzalo Mendoza Gaytán 'El Sapo' as principal lieutenants.",
+    "notable": [
+      "Born 12 September 1984 in Santa Ana, California; a US citizen",
+      "Son of Milenio Cartel founder Armando Valencia Cornelio and Rosalinda González Valencia",
+      "Founded and commanded CJNG's Grupo Élite, also called Fuerzas Especiales Mencho",
+      "Indicted in the US District Court for the District of Columbia in October 2020",
+      "US State Department posted a $5 million reward on 1 December 2021",
+      "Identified by the US National Counterterrorism Center as CJNG's overall leader on 8 July 2026"
+    ],
+    "state": "JAL",
+    "lat": 20.6597,
+    "lng": -103.3496,
+    "sources": [
+      "https://insightcrime.org/mexico-organized-crime-news/juan-carlos-valencia-gonzalez-alias-03/",
+      "https://politico.mx/2026/07/08/eua-identifica-a-juan-carlos-valencia-03-como-nuevo-lider-del-cjng-tras-la-muerte-del-mencho/",
+      "https://insightcrime.org/news/us-names-el-mencho-successr-cjng-other-plans/",
+      "https://www.aa.com.tr/en/americas/el-mencho-s-us-born-stepson-emerges-to-lead-one-of-mexicos-most-dangerous-cartels-report/3872432"
+    ]
+  },
+  {
+    "id": "audias_flores_silva",
+    "name": "Audias Flores Silva",
+    "alias": "El Jardinero",
+    "cartels": ["cjng"],
+    "born": 0,
+    "died": 0,
+    "role": "CJNG regional commander and head of El Mencho's personal security; leading succession contender in 2026",
+    "status_2026": "In Mexican custody; captured 27 April 2026 in Nayarit and bound over for trial (vinculado a proceso) on 5 May 2026; US reward raised to $15 million",
+    "bio": "Flores Silva rose through the CJNG as a plaza boss and eventually as head of security for Nemesio Oseguera Cervantes, a position that put him at the centre of the cartel's protection apparatus in the Jalisco-Nayarit corridor. On 13 August 2020 he was charged in US federal court with conspiring to manufacture and distribute five kilograms or more of cocaine and one kilogram or more of heroin for importation into the United States. In Mexico he repeatedly evaded justice through injunctions and unexecuted sentences, a record that made his eventual capture a political priority. After El Mencho was killed on 22 February 2026, Mexican and US officials named Flores Silva as the leading candidate to inherit the organisation. Following roughly 380 intelligence operations and 48 hours of aerial surveillance, some 120 Mexican Navy special forces troops, backed by helicopters, fixed-wing aircraft and around 400 additional personnel, closed on a cabin in the El Mirador area of Nayarit about 20 kilometres north of Puerto Vallarta at dawn on 27 April 2026. Marines found him hiding in a roadside drainage ditch and pulled him out without firing a shot. He was bound over for trial on 5 May 2026, and a US superseding indictment on 13 May 2026 added methamphetamine and money-laundering conspiracy counts.",
+    "notable": [
+      "Served as head of personal security for El Mencho and as a CJNG regional commander",
+      "Charged in US federal court on 13 August 2020 with cocaine and heroin importation conspiracy",
+      "Captured 27 April 2026 by Mexican Navy special forces in El Mirador, Nayarit, hiding in a drainage ditch",
+      "Bound over for trial in Mexico on 5 May 2026 as a CJNG plaza boss and leader",
+      "US superseding indictment of 13 May 2026 added methamphetamine trafficking and money laundering counts",
+      "US State Department reward increased to up to $15 million"
+    ],
+    "state": "JAL",
+    "lat": 20.6534,
+    "lng": -105.2253,
+    "sources": [
+      "https://www.cnn.com/2026/04/29/americas/mexico-jardinero-jalisco-cartel-latam-intl",
+      "https://mexiconewsdaily.com/news/mexican-navy-cjng-commander-el-jardinero/",
+      "https://www.infobae.com/mexico/2026/05/05/vinculan-a-proceso-a-audias-flores-el-jardinero-jefe-de-plaza-del-cjng/",
+      "https://www.aljazeera.com/news/2026/4/28/mexicos-jalisco-drug-cartel-commander-el-jardinero-found-hiding-in-ditch"
+    ]
+  },
+  {
+    "id": "abigael_gonzalez_valencia",
+    "name": "Abigael González Valencia",
+    "alias": "El Cuini",
+    "cartels": ["cjng", "milenio"],
+    "born": 0,
+    "died": 0,
+    "role": "Leader of Los Cuinis, the González Valencia financial network that bankrolled the CJNG's rise",
+    "status_2026": "In US custody in Washington, DC; extradited 12 August 2025, pleaded not guilty, and negotiating a plea agreement through 2026 while reportedly cooperating",
+    "bio": "A native of Aguililla, Michoacán, González Valencia built Los Cuinis with his brothers into the financial arm of what became the CJNG, laundering drug proceeds through companies, real estate and resorts in Jalisco, Nayarit and abroad. The alliance was sealed by his sister Rosalinda's marriage to Nemesio Oseguera Cervantes, and US Treasury designations in 2015 described Los Cuinis as one of the wealthiest criminal networks in the world. He was arrested on 28 February 2015 in Puerto Vallarta, Jalisco, and then spent a decade fighting extradition from Mexican maximum-security prisons through a barrage of injunctions. On 12 August 2025 he was among 26 cartel figures the Mexican government expelled to the United States under a security understanding with the Trump administration. Arraigned in Washington, DC, he pleaded not guilty to charges including methamphetamine and cocaine trafficking, criminal enterprise and firearms counts. Prosecutors disclosed more than 76,000 documents at his first substantive hearing, and through late 2025 and 2026 his hearings were repeatedly postponed at the joint request of both sides while a guilty plea was negotiated; reporting indicated he had begun cooperating with US authorities. As of September 2026 he had not been sentenced.",
+    "notable": [
+      "Arrested 28 February 2015 in Puerto Vallarta, Jalisco",
+      "Brother-in-law of El Mencho through his sister Rosalinda González Valencia",
+      "Los Cuinis was sanctioned by the US Treasury as a principal financier of the CJNG",
+      "Extradited to the United States on 12 August 2025 as part of a group of 26 cartel figures expelled by Mexico",
+      "Pleaded not guilty in Washington, DC, then entered prolonged plea negotiations through 2026"
+    ],
+    "state": "JAL",
+    "lat": 20.6534,
+    "lng": -105.2253,
+    "sources": [
+      "https://www.cnn.com/2025/08/12/americas/mexico-26-cartels-trump-intl-latam",
+      "https://www.latintimes.com/top-jalisco-cartel-leader-reportedly-cooperating-us-authorities-following-extradition-590831",
+      "https://en.wikipedia.org/wiki/Abigael_Gonz%C3%A1lez_Valencia",
+      "https://www.latintimes.com/us-prosecutors-present-more-76000-documents-first-hearing-former-cjng-financial-operator-588863"
+    ]
+  },
+  {
+    "id": "rosalinda_gonzalez_valencia",
+    "name": "Rosalinda González Valencia",
+    "alias": "La Jefa",
+    "cartels": ["cjng"],
+    "born": 0,
+    "died": 0,
+    "role": "Financial manager of the CJNG-Los Cuinis network; widow of El Mencho and mother of El Menchito and El 03",
+    "status_2026": "At liberty in Mexico under judicial supervision; released early in February 2025 and required to report monthly for signature",
+    "bio": "Born into the González Valencia family of Aguililla, Michoacán, Rosalinda married Nemesio Oseguera Cervantes and became the hinge between his armed organisation and her family's money. US Treasury actions named her in connection with more than 60 sanctioned companies used to move and legitimise CJNG proceeds, from currency exchanges to real estate and a chain of car washes. She was first detained in 2018 and released, then arrested again in November 2021 in Zapopan, Jalisco, on organised crime and money laundering allegations. In December 2023 a federal court sentenced her to five years for operations with illicit resources tied to the car-wash businesses. On 30 January 2025 a federal judge granted her early release, finding she had served more than half the sentence with good conduct; she walked free in February 2025, subject to a precautionary measure requiring her to sign in monthly at a judicial supervision unit. The Attorney General's Office challenged the release before a collegiate appeals court. She remained at liberty when her husband was killed on 22 February 2026, and her son by an earlier relationship, Juan Carlos Valencia González, was identified by US intelligence as CJNG's new leader in July 2026. She is the sister of Abigael González Valencia.",
+    "notable": [
+      "Sister of Abigael 'El Cuini' González Valencia and mother of Rubén 'El Menchito' Oseguera González",
+      "Linked by US Treasury sanctions to more than 60 companies used to launder CJNG proceeds",
+      "Arrested in Zapopan, Jalisco, in November 2021 after an earlier 2018 detention and release",
+      "Sentenced in December 2023 to five years for illicit-resource operations involving car washes",
+      "Granted early release by a federal judge on 30 January 2025 and freed in February 2025 under monthly reporting conditions"
+    ],
+    "state": "JAL",
+    "lat": 20.7214,
+    "lng": -103.3918,
+    "sources": [
+      "https://insightcrime.org/mexico-organized-crime-news/rosalinda-gonzalez-valencia-alias-la-jefa/",
+      "https://www.infobae.com/mexico/2025/01/30/este-es-el-delito-por-el-que-rosalinda-gonzalez-esposa-del-lider-del-cjng-cumplia-una-sentencia-de-5-anos-en-prision/",
+      "https://www.borderlandbeat.com/2025/02/the-attorney-general-office-of-mexico.html",
+      "https://en.wikipedia.org/wiki/Rosalinda_Gonz%C3%A1lez_Valencia"
+    ]
+  },
+  {
+    "id": "ruben_oseguera_gonzalez",
+    "name": "Rubén Oseguera González",
+    "alias": "El Menchito",
+    "cartels": ["cjng"],
+    "born": 1990,
+    "died": 0,
+    "role": "Son of El Mencho and former second-in-command of the CJNG",
+    "status_2026": "Serving life plus 30 years in US federal prison; sentenced 7 March 2025 in Washington, DC, and ordered to forfeit $6 billion",
+    "bio": "Born 14 February 1990 in San Francisco, California, and therefore a US citizen, Oseguera González grew up as the designated heir of the CJNG, known inside the organisation as 'El 02' to his father's 'El 01'. He commanded sicario cells and, US prosecutors said, personally directed a team of hitmen. Mexican authorities arrested him in 2015; after a legal fight in which he was briefly freed and rearrested, he was extradited to the United States in February 2020 and held in Washington, DC. His trial in the US District Court for the District of Columbia opened in September 2024, and on 20 September 2024 a jury convicted him of conspiring to distribute five kilograms or more of cocaine and 500 grams or more of methamphetamine for importation into the United States, and of using, carrying and brandishing firearms including destructive devices in furtherance of that conspiracy. On 7 March 2025 US District Judge Beryl Howell sentenced him to life imprisonment plus 30 years, describing the CJNG as a notoriously violent cartel, and ordered forfeiture of $6 billion in drug proceeds. His imprisonment removed the obvious dynastic successor and helped open the succession contest that followed his father's death in February 2026.",
+    "notable": [
+      "Born 14 February 1990 in San Francisco, California; a US citizen",
+      "Known within the CJNG as 'El 02', second only to his father",
+      "Extradited from Mexico to the United States in February 2020",
+      "Convicted by a Washington, DC jury on 20 September 2024 of cocaine, methamphetamine and firearms conspiracies",
+      "Sentenced 7 March 2025 by Judge Beryl Howell to life plus 30 years and $6 billion in forfeiture"
+    ],
+    "state": "JAL",
+    "lat": 20.6597,
+    "lng": -103.3496,
+    "sources": [
+      "https://theintercept.com/2025/03/07/ruben-oseguera-gonzalez-jalisco-new-generation-cartel-sentencing-trump/",
+      "https://www.france24.com/en/live-news/20250307-son-of-mexican-drug-lord-sentenced-to-life-in-us-prison",
+      "https://en.wikipedia.org/wiki/Rub%C3%A9n_Oseguera_Gonz%C3%A1lez",
+      "https://www.borderlandbeat.com/2025/03/ruben-oseguera-gonzalez-menchito.html"
+    ]
+  },
+  {
+    "id": "antonio_oseguera_cervantes",
+    "name": "Antonio Oseguera Cervantes",
+    "alias": "Tony Montana",
+    "cartels": ["cjng", "milenio"],
+    "born": 0,
+    "died": 0,
+    "role": "Brother of El Mencho; CJNG logistics, weapons procurement and finance operator",
+    "status_2026": "In US custody in Washington, DC; pleaded guilty 31 July 2026 to cocaine, methamphetamine and firearms conspiracy counts, sentencing set for 13 November 2026",
+    "bio": "A native of Michoacán and roughly 67 years old at the time of his guilty plea, Antonio Oseguera Cervantes trafficked cocaine and methamphetamine into the United States for Mexican cartels for more than two decades. From about 2010 he worked directly under his younger brother Nemesio, handling logistics, weapons procurement and money movement for the CJNG, and coordinating closely with the Los Cuinis network that financed the organisation. Mexican authorities arrested him in December 2022 in the Guadalajara metropolitan area, in an operation officials described as a significant blow to CJNG's support structure. He was extradited to the United States in February 2025 and prosecuted in the US District Court for the District of Columbia, the same court that handled his nephew Rubén Oseguera González. Facing a mandatory minimum of 15 years and a maximum of two consecutive life terms, he reached a plea agreement that spared him a trial. On 31 July 2026, five months after his brother was killed in Tapalpa, he pleaded guilty to conspiring to distribute more than 450 kilograms of cocaine and more than 45 kilograms of methamphetamine destined for the United States, and to using, carrying and possessing a firearm in furtherance of that conspiracy. Judge Beryl Howell scheduled sentencing for 13 November 2026.",
+    "notable": [
+      "Younger brother of CJNG founder Nemesio 'El Mencho' Oseguera Cervantes",
+      "Arrested in December 2022 in the Guadalajara metropolitan area",
+      "Extradited to the United States in February 2025",
+      "Pleaded guilty on 31 July 2026 to trafficking more than 450 kg of cocaine and over 45 kg of methamphetamine, plus a firearms count",
+      "Faces a 15-year mandatory minimum and up to two consecutive life terms; sentencing set for 13 November 2026"
+    ],
+    "state": "JAL",
+    "lat": 20.6597,
+    "lng": -103.3496,
+    "sources": [
+      "https://www.justice.gov/opa/pr/brother-notorious-mexican-cartel-leader-pleads-guilty-international-drug-trafficking-and",
+      "https://www.washingtontimes.com/news/2026/aug/3/cjng-cartel-leaders-brother-pleads-guilty-drug-trafficking-gun-charge/",
+      "https://abcnews.com/US/wireStory/man-slain-brother-led-mexican-cartel-pleads-guilty-135272290",
+      "https://en.wikipedia.org/wiki/Antonio_Oseguera_Cervantes"
+    ]
+  },
+  {
+    "id": "ivan_archivaldo_guzman_salazar",
+    "name": "Iván Archivaldo Guzmán Salazar",
+    "alias": "El Chapito",
+    "cartels": ["sinaloa", "chapitos"],
+    "born": 1983,
+    "died": 0,
+    "role": "Eldest surviving son of El Chapo and senior leader of Los Chapitos",
+    "status_2026": "Fugitive in Sinaloa; $10 million US reward maintained through 2026; reportedly exploring a negotiated surrender to US authorities",
+    "bio": "Born 2 October 1983 in Culiacán, Sinaloa, to Joaquín Guzmán Loera and Alejandrina Salazar Hernández, Iván Archivaldo assumed control of his father's faction of the Sinaloa Cartel after El Chapo's 2016 recapture and 2017 extradition, sharing command with his brothers Jesús Alfredo, Ovidio and Joaquín as Los Chapitos. Under their leadership the faction industrialised fentanyl production in Sinaloa and became the principal driver of the US overdose crisis, according to US prosecutors. In April 2023 federal grand juries in the Southern District of New York and the Northern District of Illinois returned indictments charging him with continuing criminal enterprise, fentanyl importation and trafficking conspiracies, machine-gun and destructive-device possession and money laundering. Since the July 2024 abduction of Ismael Zambada García by his half-brother Joaquín, Iván Archivaldo has fought a grinding war against the Mayiza faction that has devastated Culiacán. His position deteriorated sharply in 2025 and 2026: Ovidio and Joaquín both pleaded guilty and agreed to cooperate with US prosecutors, dozens of his operators were captured, and in May 2026 the Treasury sanctioned a crypto-based laundering network tied to the group. He turned 43 in August 2026 still at large, with a $10 million ICE reward outstanding and reporting suggesting he and Jesús Alfredo were probing terms for a negotiated surrender.",
+    "notable": [
+      "Born 2 October 1983 in Culiacán, Sinaloa; son of Joaquín 'El Chapo' Guzmán Loera",
+      "Indicted in April 2023 in both the Southern District of New York and Northern District of Illinois",
+      "Carries a US reward of up to $10 million, publicised by ICE through 2026",
+      "Leads Los Chapitos in the civil war against the Mayiza faction that began after El Mayo's July 2024 capture",
+      "Los Angeles Times reporting in 2026 described contacts with US authorities over a possible negotiated surrender"
+    ],
+    "state": "SIN",
+    "lat": 24.8091,
+    "lng": -107.394,
+    "sources": [
+      "https://www.ice.gov/most-wanted/guzman-salazar-ivan",
+      "https://insightcrime.org/mexico-organized-crime-news/los-chapitos/",
+      "https://www.infobae.com/mexico/2026/08/14/ivan-archivaldo-guzman-cumple-43-anos-mientras-sigue-profugo-con-una-recompensa-de-eeuu-por-10-mdd-y-los-chapitos-atravesando-su-peor-momento/",
+      "https://www.nbclosangeles.com/news/local/sinaloa-cartel-chapito-reward-arrest/3875929/"
+    ]
+  },
+  {
+    "id": "jesus_alfredo_guzman_salazar",
+    "name": "Jesús Alfredo Guzmán Salazar",
+    "alias": "El Alfredillo",
+    "cartels": ["sinaloa", "chapitos"],
+    "born": 0,
+    "died": 0,
+    "role": "Son of El Chapo and co-leader of Los Chapitos alongside his brother Iván Archivaldo",
+    "status_2026": "Fugitive in Sinaloa; $10 million US State Department reward; reportedly in contact with US authorities about a negotiated surrender",
+    "bio": "The second of Joaquín Guzmán Loera's sons by Alejandrina Salazar Hernández, Jesús Alfredo has operated as Iván Archivaldo's closest partner in running Los Chapitos since their father's extradition in January 2017. He came to public attention in August 2016 when CJNG gunmen kidnapped him from a Puerto Vallarta restaurant, an abduction resolved by negotiation within days and widely read as the opening of a lasting CJNG-Sinaloa hostility. In April 2023 a federal grand jury in the Southern District of New York indicted him for continuing criminal enterprise, fentanyl importation conspiracy, fentanyl trafficking conspiracy and related counts, part of the sweeping US case that first exposed the Chapitos' fentanyl laboratories, chemical supply chains from China and their use of extreme violence against rivals and informants. The State Department offers up to $10 million for information leading to his arrest or conviction. Since July 2024 he has been a principal commander in the Sinaloa civil war against the Mayiza, a conflict that has driven Culiacán's homicide rate to record levels and drawn heavy federal deployments. With Ovidio and Joaquín Guzmán López in US custody and cooperating, he and Iván Archivaldo are the last Chapitos at liberty; Mexican and US reporting in 2026 described both brothers as exploring terms for a negotiated surrender, though nothing has been confirmed.",
+    "notable": [
+      "Kidnapped by CJNG gunmen from a Puerto Vallarta restaurant in August 2016 and released after negotiations",
+      "Indicted in April 2023 by a federal grand jury in the Southern District of New York on fentanyl and continuing criminal enterprise charges",
+      "US State Department reward of up to $10 million",
+      "One of only two Chapitos brothers still at large as of September 2026",
+      "Reported in 2026 to be in indirect contact with US authorities over a possible surrender"
+    ],
+    "state": "SIN",
+    "lat": 24.8091,
+    "lng": -107.394,
+    "sources": [
+      "https://www.state.gov/jesus-alfredo-guzman-salazar",
+      "https://www.infobae.com/mexico/2026/07/26/los-ultimos-chapitos-en-pie-ivan-archivaldo-y-jesus-alfredo-guzman-los-herederos-de-el-chapo-que-siguen-profugos/",
+      "https://www.elimparcial.com/mundo/2026/05/11/los-lideres-de-los-chapitos-ivan-archivaldo-y-jesus-alfredo-guzman-salazar-mantienen-conversaciones-con-autoridades-de-estados-unidos-para-negociar-su-rendicion-pactada/",
+      "https://insightcrime.org/mexico-organized-crime-news/los-chapitos/"
+    ]
+  },
+  {
+    "id": "ovidio_guzman_lopez",
+    "name": "Ovidio Guzmán López",
+    "alias": "El Ratón",
+    "cartels": ["sinaloa", "chapitos"],
+    "born": 1990,
+    "died": 0,
+    "role": "Son of El Chapo and a head of the Sinaloa Cartel's Chapitos faction; now a US government cooperator",
+    "status_2026": "In US custody in Chicago; pleaded guilty 11 July 2025 and is cooperating; sentencing postponed to 28 October 2026",
+    "bio": "Born 29 March 1990 in Culiacán, Sinaloa, to Joaquín Guzmán Loera and Griselda López Pérez, Ovidio became internationally known on 17 October 2019 when soldiers detained him in Culiacán and Chapitos gunmen seized the city in response, forcing President Andrés Manuel López Obrador's government to release him in what became known as the Culiacanazo. He was recaptured on 5 January 2023 in Jesús María, Sinaloa, in an operation that left about 30 people dead, and extradited to the United States in September 2023, where he pleaded not guilty in Chicago. In 2025 he reversed course. On 11 July 2025 he pleaded guilty in the US District Court for the Northern District of Illinois to two counts of drug conspiracy and two counts of engaging in a continuing criminal enterprise, under a multidistrict agreement resolving charges brought in both Illinois and the Southern District of New York. He agreed to cooperate fully with US investigations into cartel members in exchange for the prospect of a sentence less than life; the deal also covered the relocation of family members to the United States. Judge Sharon Johnson Coleman deferred sentencing repeatedly through 2026, with the hearing ultimately reset for 28 October 2026.",
+    "notable": [
+      "Central figure in the 17 October 2019 Culiacanazo, when the government released him to stop a cartel assault on Culiacán",
+      "Recaptured 5 January 2023 in Jesús María, Sinaloa, in an operation that killed about 30 people",
+      "Extradited to the United States in September 2023",
+      "Pleaded guilty in Chicago on 11 July 2025 to two drug conspiracy counts and two continuing criminal enterprise counts",
+      "Agreed to cooperate with US prosecutors against other cartel members; sentencing postponed to 28 October 2026"
+    ],
+    "state": "SIN",
+    "lat": 24.8091,
+    "lng": -107.394,
+    "sources": [
+      "https://www.justice.gov/usao-ndil/pr/ovidio-guzman-lopez-son-el-chapo-and-head-sinaloa-cartel-pleads-guilty-federal-drug",
+      "https://abc7chicago.com/post/ovidio-guzmn-lpez-son-joaquin-el-chapo-guzman-expected-plead-guilty-chicago-court-friday/17066128/",
+      "https://mexiconewsdaily.com/news/sinaloa-cartel-leader-ovidio-guzman-pleads-guilty-drug-trafficking/",
+      "https://www.cbsnews.com/news/el-chapo-son-chicago-ovidio-guzman-lopez"
+    ]
+  },
+  {
+    "id": "joaquin_guzman_lopez",
+    "name": "Joaquín Guzmán López",
+    "alias": "El Güero Moreno",
+    "cartels": ["sinaloa", "chapitos"],
+    "born": 0,
+    "died": 0,
+    "role": "Son of El Chapo; abducted Ismael 'El Mayo' Zambada and delivered him to US agents in July 2024",
+    "status_2026": "In US custody in Chicago; pleaded guilty 2 December 2025 and admitted kidnapping El Mayo; awaiting sentencing after a 1 June 2026 status hearing",
+    "bio": "The youngest of the four Chapitos and a son of Joaquín Guzmán Loera and Griselda López Pérez, Joaquín Guzmán López carried out the single most consequential act in modern Mexican organised crime. On 25 July 2024 he lured Ismael Zambada García to a meeting near Culiacán by claiming he needed help mediating a political dispute, then had armed men zip-tie the veteran capo, hood him, drive him to an airstrip and force him onto a private plane. Zambada was drugged for the flight; both men landed at a private airfield near El Paso, Texas, where US agents arrested them. The abduction shattered the Sinaloa Cartel's decades-old equilibrium and touched off the Chapitos-Mayiza civil war that has killed thousands in Sinaloa since September 2024. Guzmán López initially pleaded not guilty in Chicago. On 2 December 2025 he changed his plea in the US District Court for the Northern District of Illinois, admitting one count of drug conspiracy and one count of engaging in a continuing criminal enterprise, offences carrying a ten-year mandatory minimum and a maximum of life. His written plea agreement set out the kidnapping in detail, the first authoritative account of how El Mayo was taken. Judge Sharon Johnson Coleman ordered him back for a status hearing on 1 June 2026 ahead of sentencing.",
+    "notable": [
+      "Lured and abducted Ismael 'El Mayo' Zambada on 25 July 2024, delivering him to US agents near El Paso, Texas",
+      "His action triggered the Sinaloa Cartel civil war between Los Chapitos and La Mayiza",
+      "Pleaded guilty in Chicago on 2 December 2025 to drug conspiracy and continuing criminal enterprise",
+      "Admitted in his plea agreement to zip-tying, hooding and sedating Zambada before the flight",
+      "Faces a ten-year mandatory minimum and up to life; status hearing held 1 June 2026 ahead of sentencing"
+    ],
+    "state": "SIN",
+    "lat": 24.8091,
+    "lng": -107.394,
+    "sources": [
+      "https://www.justice.gov/usao-ndil/pr/joaquin-guzman-lopez-son-el-chapo-and-head-sinaloa-cartel-pleads-guilty-federal-drug",
+      "https://mexiconewsdaily.com/news/son-el-chapo-joaquin-guzman-lopez-admits-kidnapping-el-mayo/",
+      "https://www.npr.org/2025/12/02/nx-s1-5628200/plea-son-drug-kingpin-el-chapo-sinaloa-capo",
+      "https://www.aljazeera.com/news/2025/11/29/son-of-jailed-mexican-drug-lord-el-chapo-to-plead-guilty-in-us-court"
+    ]
+  },
+  {
+    "id": "ismael_zambada_sicairos",
+    "name": "Ismael Zambada Sicairos",
+    "alias": "Mayito Flaco",
+    "cartels": ["sinaloa", "mayiza"],
+    "born": 1982,
+    "died": 0,
+    "role": "Son of El Mayo Zambada and principal leader of La Mayiza in the Sinaloa civil war",
+    "status_2026": "Fugitive; identified by the DEA as the leader of La Mayiza with a US reward of up to $15 million",
+    "bio": "Born in or around Culiacán, Sinaloa, about 1982, Ismael Zambada Sicairos spent most of his career in the shadow of his father, Ismael Zambada García, and of older half-brothers who were arrested or turned state's evidence. He was indicted in the United States in 2014 on drug trafficking charges but remained a comparatively obscure figure until 25 July 2024, when Joaquín Guzmán López abducted his father and handed him to US agents in Texas. With El Mayo gone and his brother Ismael Zambada Imperial already cooperating with US prosecutors, Mayito Flaco emerged as the principal commander of La Mayiza, the faction of the Sinaloa Cartel loyal to the Zambada family. From September 2024 he directed a full-scale war against Los Chapitos across Culiacán, Navolato, Guasave and the Sierra, a conflict marked by mass abductions, roadblocks and record homicide levels that has drawn tens of thousands of federal troops into Sinaloa. The DEA subsequently issued a wanted listing describing him as armed and extremely dangerous and accusing him of conspiring to distribute fentanyl and cocaine in the United States, with a reward of up to $15 million. He is regarded as the heir to his father's network of protection, corruption and long-standing relationships in the Sierra, and remained at large as of September 2026.",
+    "notable": [
+      "Son of Sinaloa Cartel co-founder Ismael 'El Mayo' Zambada García",
+      "Indicted in the United States in 2014 on drug trafficking charges",
+      "Became principal leader of La Mayiza after his father's 25 July 2024 capture",
+      "Commands one side of the Sinaloa Cartel civil war against Los Chapitos",
+      "DEA wanted listing carries a reward of up to $15 million and describes him as armed and extremely dangerous"
+    ],
+    "state": "SIN",
+    "lat": 24.8091,
+    "lng": -107.394,
+    "sources": [
+      "https://insightcrime.org/mexico-organized-crime-news/ismael-zambada-sicairos-alias-mayito-flaco/",
+      "https://www.parriva.com/news-digest/dea-issues-wanted-listing-for-mayito-flaco/",
+      "https://en.wikipedia.org/wiki/Timeline_of_the_Infighting_in_the_Sinaloa_Cartel",
+      "https://www.cnn.com/2026/07/20/americas/mexico-cartel-mayo-sentenced-latam-intl"
+    ]
+  },
+  {
+    "id": "aureliano_guzman_loera",
+    "name": "Aureliano Guzmán Loera",
+    "alias": "El Guano",
+    "cartels": ["sinaloa"],
+    "born": 0,
+    "died": 0,
+    "role": "Brother of El Chapo; controls opium and trafficking routes in the Badiraguato sierra and the Golden Triangle",
+    "status_2026": "Fugitive; escaped a major army and Navy operation at La Cebadilla, Tamazula, Durango, on 22 April 2026 in which ten of his circle were detained",
+    "bio": "A younger brother of Joaquín Guzmán Loera, Aureliano grew up in the Badiraguato highlands of Sinaloa and built a low-profile but durable organisation controlling poppy cultivation, heroin production and mountain trafficking corridors running from Sinaloa through Sonora to the US border. The US State Department, which offers up to $5 million for him, describes his network as moving poppy, marijuana, heroin, fentanyl, methamphetamine and cocaine for the Sinaloa Cartel. From 2023 onwards Mexican and international reporting described an internal dispute between his faction and Los Chapitos over sierra cultivation zones and smuggling routes, a rift that deepened once the Chapitos-Mayiza war broke out in late 2024 and El Guano's people aligned against his nephews. He has proved extraordinarily hard to catch, evading at least seven major military operations in the Sinaloa and Durango sierra since 2011. In December 2025 the Navy deployed a dedicated operation in the Golden Triangle to detain him. On 22 April 2026 federal forces acting with US intelligence support struck La Cebadilla in Tamazula, Durango, detaining ten members of his inner circle; Security Secretary Omar García Harfuch confirmed the operation but not a capture, and Guzmán Loera again escaped. He remained a fugitive in September 2026.",
+    "notable": [
+      "Brother of Joaquín 'El Chapo' Guzmán Loera, based in the Badiraguato sierra",
+      "US State Department reward of up to $5 million",
+      "Controls poppy cultivation and heroin production routes from Sinaloa through Sonora to the US border",
+      "In dispute with his nephews, Los Chapitos, since at least 2023",
+      "Escaped an operation at La Cebadilla, Tamazula, Durango, on 22 April 2026 in which ten associates were detained"
+    ],
+    "state": "SIN",
+    "lat": 25.3572,
+    "lng": -107.5528,
+    "sources": [
+      "https://www.infobae.com/mexico/2026/04/24/las-7-fugas-de-el-guano-asi-ha-escapado-el-hermano-de-el-chapo-de-todos-los-operativos-para-capturarlo/",
+      "https://www.elfinanciero.com.mx/estados/2026/04/22/harfuch-confirma-operativo-contra-el-guano-hermano-del-chapo-todavia-no-se-confirma-su-detencion/",
+      "https://www.infobae.com/mexico/2025/12/15/van-por-el-guano-marina-despliega-operativo-en-el-triangulo-dorado-para-detener-al-hermano-del-chapo-guzman/",
+      "https://www.borderlandbeat.com/2026/04/aureliano-guzman-loera-aka-el-guano.html"
+    ]
+  },
+  {
+    "id": "damaso_lopez_nunez",
+    "name": "Dámaso López Núñez",
+    "alias": "El Licenciado",
+    "cartels": ["sinaloa"],
+    "born": 1966,
+    "died": 0,
+    "role": "Former Puente Grande prison official who became El Chapo's closest lieutenant and later a US government witness",
+    "status_2026": "In US custody or protection; sentenced to life in November 2018 but absent from the Bureau of Prisons registry since 2021, consistent with witness protection",
+    "bio": "Born in 1966 in El Dorado, Culiacán, Sinaloa, López Núñez trained as a lawyer and served as a Sinaloa state police officer before becoming deputy director of the Puente Grande maximum-security prison in Jalisco, where he facilitated Joaquín Guzmán Loera's escape in January 2001. He resigned and joined the Sinaloa Cartel outright, rising to become one of El Chapo's most trusted lieutenants, godfather to his children and a power broker in the cartel's dealings with police and politicians. After El Chapo's 2016 recapture, López Núñez and his son Dámaso López Serrano fought Los Chapitos for control of the organisation, a conflict that filled Culiacán with bodies in 2016 and 2017. Mexican forces arrested him on 2 May 2017 in Mexico City and extradited him to the United States in July 2018 to face charges in the Eastern District of Virginia. He pleaded guilty and, in November 2018, received a life sentence, but by then he was cooperating: he testified as a prosecution witness at El Chapo's Brooklyn trial in early 2019, describing bribes to Mexican officials and the workings of the cartel. Since 2021 his name has been absent from the federal inmate registry, and US officials confirmed to Univision he was no longer in ordinary prison custody, prompting well-founded speculation that he entered witness protection.",
+    "notable": [
+      "Deputy director of Puente Grande prison; facilitated El Chapo's escape in January 2001",
+      "Arrested 2 May 2017 in Mexico City and extradited to the United States in July 2018",
+      "Sentenced to life imprisonment in November 2018 in the Eastern District of Virginia",
+      "Testified as a prosecution witness at El Chapo's trial in Brooklyn in 2019",
+      "Removed from the Bureau of Prisons public registry in 2021, consistent with entry into witness protection"
+    ],
+    "state": "SIN",
+    "lat": 24.8091,
+    "lng": -107.394,
+    "sources": [
+      "https://www.justice.gov/usao-edva/pr/senior-sinaloa-cartel-leader-extradited-united-states",
+      "https://www.borderlandbeat.com/2021/10/damaso-lopez-nunez-el-licenciado-can-no.html",
+      "https://www.eluniversal.com.mx/nacion/damaso-lopez-nunez-el-licenciado-de-subdirector-del-penal-de-puente-grande-a-testigo-clave-contra-el-chapo/",
+      "https://mexiconewsdaily.com/news/sinaloa-cartel-boss-extradited-to-us/"
+    ]
+  },
+  {
+    "id": "damaso_lopez_serrano",
+    "name": "Dámaso López Serrano",
+    "alias": "Mini Lic",
+    "cartels": ["sinaloa"],
+    "born": 0,
+    "died": 0,
+    "role": "Son of El Licenciado; first major Mexican capo to surrender voluntarily at the US border, later a cooperator and repeat offender",
+    "status_2026": "Serving a five-year US federal sentence imposed on 4 February 2026 in Alexandria, Virginia, for attempted fentanyl distribution",
+    "bio": "The son of Dámaso López Núñez, López Serrano grew up inside the Sinaloa Cartel and inherited a faction of his father's network in Sinaloa's south. He is widely accused in Mexico of ordering the 15 May 2017 murder of the journalist Javier Valdez Cárdenas in Culiacán, allegedly in retaliation for Ríodoce's coverage of the López family's feud with Los Chapitos, and a Mexican arrest warrant names him as the intended mastermind. On 27 July 2017 he crossed the border at Calexico and surrendered to US authorities, the first Mexican capo to do so voluntarily. He pleaded guilty, cooperated extensively and became a source of detailed information about the Chapitos, receiving a heavily reduced sentence and release in 2022. Free in the United States, he did not stay out of the trade: reporting indicated he sought to rejoin cartel structures, and he was arrested again in 2024 on fentanyl trafficking charges. In May 2025 he pleaded guilty in federal court in Virginia. On 4 February 2026 US District Judge Anthony Trenga in Alexandria sentenced him to five years in prison for attempted distribution of fentanyl-laced pills, declining to depart from the joint recommendation in the plea agreement. He has never been tried in Mexico for the Valdez killing.",
+    "notable": [
+      "Surrendered voluntarily to US authorities at Calexico on 27 July 2017, the first Mexican capo to do so",
+      "Named in a Mexican arrest warrant as the alleged mastermind of journalist Javier Valdez's 2017 murder",
+      "Cooperated with US prosecutors, received a reduced sentence and was released in 2022",
+      "Rearrested in 2024 on fentanyl trafficking charges; pleaded guilty in May 2025",
+      "Sentenced to five years on 4 February 2026 by Judge Anthony Trenga in Alexandria, Virginia"
+    ],
+    "state": "SIN",
+    "lat": 24.8091,
+    "lng": -107.394,
+    "sources": [
+      "https://www.washingtonpost.com/politics/2026/02/04/javier-valdez-mexican-journalist-killed/",
+      "https://mexiconewsdaily.com/news/mini-lic-fentanyl-trafficking-sentence-sinaloa/",
+      "https://insightcrime.org/mexico-organized-crime-news/damaso-lopez-serrano-alias-mini-lic/",
+      "https://www.latintimes.com/former-key-sinaloa-cartel-figure-el-mini-lic-sentenced-five-years-attempted-fentanyl-trafficking-594308"
+    ]
+  },
+  {
+    "id": "fausto_isidro_meza_flores",
+    "name": "Fausto Isidro Meza Flores",
+    "alias": "El Chapo Isidro",
+    "cartels": ["beltran_leyva"],
+    "born": 1982,
+    "died": 0,
+    "role": "Leader of the Meza Flores Organization, or Guasave Cartel, the main non-Sinaloa-Cartel power in northern Sinaloa",
+    "status_2026": "At large; reports of his capture at Guasave on 3 November 2025 were denied by Governor Rubén Rocha Moya and never confirmed",
+    "bio": "From Guasave in northern Sinaloa, Meza Flores entered trafficking in the 1990s under Amado Carrillo Fuentes of the Juárez Cartel and then joined the Beltrán Leyva Organization around 2000. When the Beltrán Leyvas split from the Sinaloa Cartel in 2008 he inherited their northern Sinaloa remnant, building the Meza Flores Organization, known locally as the Guasave Cartel, into a durable rival of the Guzmán and Zambada networks with routes through Sonora into Arizona. The US Treasury sanctioned him under the Kingpin Act in 2013, and the State Department posted a $5 million reward in 2017. Mexican authorities linked his organisation to a record seizure of 20 million counterfeit fentanyl pills in December 2024. On 4 February 2025 the FBI added him to its Ten Most Wanted Fugitives list. The collapse of the Sinaloa Cartel into civil war after July 2024 gave him room to expand, and by early 2026 analysts described him as a resurgent power positioned to profit from the Chapitos-Mayiza war, with unconfirmed reporting of tactical alignment with the Mayiza. On 3 November 2025 a federal operation in Guasave left 13 gunmen dead, four detained and nine kidnapping victims freed; several outlets reported he had been captured, but Governor Rubén Rocha Moya stated he was not among the detainees and no arrest was ever confirmed.",
+    "notable": [
+      "Began under the Juárez Cartel in the 1990s, then joined the Beltrán Leyva Organization around 2000",
+      "Sanctioned by the US Treasury under the Kingpin Act in 2013; $5 million State Department reward posted in 2017",
+      "Added to the FBI Ten Most Wanted Fugitives list on 4 February 2025",
+      "His organisation was linked to a record December 2024 seizure of 20 million counterfeit fentanyl pills",
+      "Reported captured at Guasave on 3 November 2025 in an operation that killed 13 gunmen, but Governor Rocha Moya denied he was detained"
+    ],
+    "state": "SIN",
+    "lat": 25.5667,
+    "lng": -108.4667,
+    "sources": [
+      "https://insightcrime.org/mexico-organized-crime-news/fausto-isidro-meza-flores-chapo-isidro/",
+      "https://www.state.gov/fausto-isidro-meza-flores",
+      "https://www.proceso.com.mx/nacional/2025/11/3/fuerzas-federales-abaten-13-presuntos-criminales-en-guasave-zona-de-influencia-del-chapo-isidro-362076.html",
+      "https://paralosdeapie.com.mx/2025/11/04/chapo-isidro-no-fue-detenido-informa-ruben-rocha/"
+    ]
+  },
+  {
+    "id": "rodrigo_paez_quintero",
+    "name": "Rodrigo Omar Páez Quintero",
+    "alias": "El R",
+    "cartels": ["caborca", "sonora"],
+    "born": 0,
+    "died": 0,
+    "role": "Nephew of Rafael Caro Quintero and operational leader of the Caborca Cartel in Sonora",
+    "status_2026": "In US custody in Arizona; extradited July 2024 and awaiting trial in the District of Arizona on trafficking charges carrying up to life",
+    "bio": "A nephew of Rafael Caro Quintero, Páez Quintero rose within the family networks known as Los Páez or Los Paleteros that formed the armed core of the Caborca Cartel, the organisation Caro Quintero rebuilt in Sonora after his 2013 release from a Mexican prison. His peak came between 2017 and 2019, when he directed the organisation's trafficking through the Sonoran desert corridor toward Arizona and fought Los Chapitos for control of the Caborca and Altar valley routes, a dispute that made the state one of Mexico's most violent. Mexican federal agents and Navy personnel arrested him on 30 April 2023 in the Guadalajara metropolitan area. He was extradited to the United States in July 2024 and made his initial appearance on 16 July 2024 in the US District Court for the District of Arizona in Tucson, charged with conspiracy to possess with intent to distribute heroin, methamphetamine and fentanyl, plus multiple substantive possession counts, each carrying a maximum of life imprisonment and a $10 million fine. As of September 2026 no plea or sentencing had been publicly reported. The Caborca Cartel has continued to operate under other commanders, still contesting Sonora's border corridors with the Sinaloa Cartel's Chapitos faction.",
+    "notable": [
+      "Nephew of Guadalajara Cartel co-founder Rafael Caro Quintero",
+      "Led Caborca Cartel drug operations at their height between 2017 and 2019",
+      "Arrested 30 April 2023 in the Guadalajara metropolitan area by the FGR and the Navy",
+      "Extradited to the United States and first appeared in federal court in Tucson, Arizona, on 16 July 2024",
+      "Faces trafficking counts for heroin, methamphetamine and fentanyl each carrying a maximum of life"
+    ],
+    "state": "SON",
+    "lat": 30.7167,
+    "lng": -112.1597,
+    "sources": [
+      "https://www.justice.gov/usao-az/pr/lead-defendant-long-running-drug-trafficking-conspiracy-extradited-united-states-mexico",
+      "https://www.latintimes.com/top-mexican-cartel-member-extradited-us-face-drug-conspiracy-charges-556421",
+      "https://www.infobae.com/mexico/2023/04/30/cartel-de-caborca-cayo-el-r-quien-disputaba-plaza-con-los-chapitos/",
+      "https://politico.mx/2025/11/21/el-cartel-de-caborca-la-dinastia-quintero-que-se-apropio-de-la-perla-del-desierto/"
+    ]
+  },
+  {
+    "id": "juan_jose_farias_alvarez",
+    "name": "Juan José Farías Álvarez",
+    "alias": "El Abuelo",
+    "cartels": ["autodefensas", "carteles_unidos"],
+    "born": 1970,
+    "died": 0,
+    "role": "Former autodefensa commander turned founder of the Tepalcatepec Cartel and leader of Cárteles Unidos in Michoacán",
+    "status_2026": "Fugitive in Michoacán; $10 million US reward posted 14 August 2025; his son and nephew indicted in the US in July 2026",
+    "bio": "Born 10 August 1970 in Tepalcatepec, Michoacán, Farías Álvarez emerged in 2013-2014 as one of the most prominent commanders of the Michoacán autodefensa movement that drove the Caballeros Templarios from Tierra Caliente, even as authorities and journalists documented his earlier trafficking record. As the self-defence movement was co-opted and fragmented, he converted his militia into a criminal organisation: in 2019 he founded the Tepalcatepec Cartel and knitted together a coalition of Michoacán groups as Cárteles Unidos, whose central purpose was to block the CJNG's advance into the avocado and lime economies of Tierra Caliente. The resulting front line around Tepalcatepec, Aguililla and Buenavista has been among the most militarised in Mexico, featuring trench systems, improvised armoured vehicles and weaponised drones. On 14 August 2025 the State Department's Bureau of International Narcotics and Law Enforcement Affairs offered up to $10 million for information leading to his arrest or conviction. Pressure intensified in 2026: in April a major Tierra Caliente operation aimed at him instead detained his son Víctor; his operator Alfonso Valencia 'El Repollo' was arrested on 29 May 2026; and in early July 2026 the US Justice Department indicted his son Juan José Farías Mendoza and nephew Israel Vega Farías on drug trafficking and terrorism-support charges. He remained at large in September 2026.",
+    "notable": [
+      "Born 10 August 1970 in Tepalcatepec, Michoacán",
+      "Prominent commander in the 2013-2014 Michoacán autodefensa uprising against the Caballeros Templarios",
+      "Founded the Tepalcatepec Cartel in 2019 and leads the Cárteles Unidos coalition against the CJNG",
+      "US State Department posted a reward of up to $10 million on 14 August 2025",
+      "His son Víctor was detained in April 2026 and his son and nephew were indicted in the United States in July 2026"
+    ],
+    "state": "MIC",
+    "lat": 19.1833,
+    "lng": -102.85,
+    "sources": [
+      "https://www.infobae.com/mexico/2026/07/05/el-abuelo-farias-de-autodefensa-a-lider-de-carteles-unidos-la-torcida-vida-por-la-que-lo-busca-eeuu-junto-a-su-hijo-y-sobrino/",
+      "https://www.informador.mx/internacional/narcotrafico-estados-unidos-imputa-al-hijo-y-un-sobrino-de-el-abuelo-20260703-0016.html",
+      "https://www.elfinanciero.com.mx/estados/2026/04/18/iban-por-el-abuelo-farias-lider-de-carteles-unidos-megaoperativo-en-tierra-caliente-deja-un-detenido/",
+      "https://es.wikipedia.org/wiki/Juan_Jos%C3%A9_Far%C3%ADas_%C3%81lvarez"
+    ]
+  },
+  {
+    "id": "johnny_hurtado_olascoaga",
+    "name": "Johnny Hurtado Olascoaga",
+    "alias": "El Pez",
+    "cartels": ["familia_michoacana", "nueva_familia_michoacana"],
+    "born": 1973,
+    "died": 0,
+    "role": "Co-founder and top leader of La Nueva Familia Michoacana",
+    "status_2026": "Fugitive; indicted in the US on 24 September 2024, sanctioned by Treasury, with a $5 million State Department reward",
+    "bio": "Born 1 March 1973 in the Arcelia area of Guerrero, Hurtado Olascoaga and his brother José Alfredo rebuilt the remains of La Familia Michoacana into La Nueva Familia Michoacana around 2011, taking control of the Tierra Caliente triangle where Guerrero, the State of Mexico and Michoacán meet. The organisation is unusual among Mexican cartels for its territorial governance model: it taxes and administers dozens of municipalities, running extortion of farmers, transporters and businesses, illegal iron ore mining, logging and migrant smuggling alongside large-scale drug trafficking. The DEA estimates the group moves more than 36 tonnes of methamphetamine, 12 tonnes of heroin and 12 tonnes of cocaine into the United States each year and has publicised its distribution of brightly coloured 'rainbow fentanyl' pills. The Treasury sanctioned the organisation and its leaders in June 2024, and on 24 September 2024 the US Justice Department indicted both brothers on three counts including conspiracy to manufacture and distribute controlled substances. In April 2025 the State Department announced rewards totalling $8 million for the pair, $5 million of it for Johnny. The Trump administration's designation of Mexican cartels as foreign terrorist organisations brought further pressure, and in May 2026 the Justice Department intensified its campaign against the group, but as of September 2026 he had not been captured.",
+    "notable": [
+      "Born 1 March 1973 in Guerrero; co-founded La Nueva Familia Michoacana around 2011 with his brother",
+      "Organisation controls territory across Guerrero, the State of Mexico and Michoacán through extortion, illegal mining and drug trafficking",
+      "DEA attributes to the group more than 36 tonnes of methamphetamine and 12 tonnes each of heroin and cocaine annually",
+      "Sanctioned by the US Treasury in June 2024 and indicted in the United States on 24 September 2024",
+      "US State Department reward of up to $5 million announced in April 2025"
+    ],
+    "state": "GRO",
+    "lat": 18.3167,
+    "lng": -100.2833,
+    "sources": [
+      "https://www.state.gov/johnny-hurtado-olascoaga",
+      "https://www.cbsnews.com/news/us-charges-familia-michoacana-cartel-leaders-mexico-8-million-reward/",
+      "https://www.infobae.com/mexico/2025/04/16/quienes-son-johnny-y-jose-alfredo-hurtado-olascoaga-lideres-de-la-nueva-familia-michoacana-por-los-que-eeuu-ofrece-8-mdd/",
+      "https://en.wikipedia.org/wiki/La_Nueva_Familia_Michoacana_Organization"
+    ]
+  },
+  {
+    "id": "jose_alfredo_hurtado_olascoaga",
+    "name": "José Alfredo Hurtado Olascoaga",
+    "alias": "El Fresa",
+    "cartels": ["familia_michoacana", "nueva_familia_michoacana"],
+    "born": 0,
+    "died": 0,
+    "role": "Co-founder and second-in-command of La Nueva Familia Michoacana",
+    "status_2026": "Fugitive; indicted in the US on 24 September 2024 with a $3 million State Department reward, still listed as wanted in April 2026",
+    "bio": "The younger of the two Hurtado Olascoaga brothers from the Arcelia area of Guerrero, José Alfredo has run La Nueva Familia Michoacana jointly with Johnny since roughly 2011 and is generally described by US authorities as the organisation's second in command. His profile is more public than most cartel leaders': after the October 2022 San Miguel Totolapan massacre in Guerrero, in which gunmen killed the mayor, his father and 18 others, he appeared in a video denying responsibility and blaming rivals, an example of the group's practice of communicating directly with the population it taxes. He is associated with the organisation's operations in the State of Mexico and Guerrero, including extortion of avocado, lime and cattle producers, illegal iron ore extraction and the movement of methamphetamine and fentanyl to the United States. The Treasury sanctioned him in June 2024 over the group's rainbow fentanyl distribution, and on 24 September 2024 the Justice Department indicted him alongside his brother and an Atlanta-based money launderer on three counts including drug manufacturing and distribution conspiracy. In April 2025 the State Department offered up to $3 million for information leading to his arrest. A State Department listing dated 9 April 2026 still described him as wanted, and Mexican federal deployments against the group in the State of Mexico and Morelos through mid-2026 did not produce his capture.",
+    "notable": [
+      "Co-leader of La Nueva Familia Michoacana with his brother Johnny 'El Pez' Hurtado Olascoaga",
+      "Publicly denied responsibility on video for the October 2022 San Miguel Totolapan massacre in Guerrero",
+      "Sanctioned by the US Treasury in June 2024 over rainbow fentanyl distribution",
+      "Indicted in the United States on 24 September 2024 with his brother and an Atlanta money launderer",
+      "US State Department reward of up to $3 million; still listed as wanted in April 2026"
+    ],
+    "state": "GRO",
+    "lat": 18.3167,
+    "lng": -100.2833,
+    "sources": [
+      "https://www.state.gov/jose-alfredo-hurtado-olascoaga",
+      "https://www.justice.gov/opa/video/leaders-la-nueva-familia-michoacana-and-atlanta-based-money-launderer-indicted",
+      "https://www.borderlandbeat.com/2022/10/san-miguel-totolapan-guerrero-johnny.html",
+      "https://www.publimetro.com.mx/noticias/2026/05/25/eeuu-intensifica-ofensiva-contra-la-nueva-familia-michoacana-y-va-por-el-pez-y-el-fresa/"
+    ]
+  },
+  {
+    "id": "jose_antonio_yepez_ortiz",
+    "name": "José Antonio Yépez Ortiz",
+    "alias": "El Marro",
+    "cartels": ["santa_rosa_lima"],
+    "born": 1980,
+    "died": 0,
+    "role": "Founder and leader of the Cártel de Santa Rosa de Lima, Mexico's most prominent fuel-theft organisation",
+    "status_2026": "Imprisoned in Mexico under a 60-year sentence; sanctioned by the US Treasury on 17 December 2025 for continuing to direct the cartel from prison",
+    "bio": "Born 23 July 1980 in Santa Cruz de Juventino Rosas, Guanajuato, Yépez built the Cártel de Santa Rosa de Lima out of the huachicolero networks that tapped Pemex pipelines around the Salamanca refinery, turning fuel theft into an industry and adding extortion, kidnapping and retail drug sales. From 2017 his war with the CJNG for control of Guanajuato made the state Mexico's deadliest by absolute homicides for several consecutive years, marked by narco-video threats, attacks on Pemex facilities and mass killings at rehabilitation centres and bars. He was arrested on 2 August 2020 by the army at a property in Juventino Rosas, and on 14 January 2022 a Guanajuato court sentenced him to 60 years for the aggravated kidnapping of a businesswoman. Prison did not end his role. On 17 December 2025 the US Treasury sanctioned the Cártel de Santa Rosa de Lima as a transnational criminal organisation and named Yépez as directing its operations from custody, passing instructions through relatives and lawyers, laundering proceeds and brokering alliances with the Sinaloa and Gulf cartels against the CJNG. Mexican reporting in January 2026 confirmed the same picture of remote command, making him one of the clearest modern examples of a Mexican capo whose imprisonment left his organisation intact.",
+    "notable": [
+      "Born 23 July 1980 in Santa Cruz de Juventino Rosas, Guanajuato",
+      "Built the Cártel de Santa Rosa de Lima around Pemex pipeline fuel theft near the Salamanca refinery",
+      "His war with the CJNG made Guanajuato Mexico's deadliest state by homicide count for several years",
+      "Arrested by the army on 2 August 2020 and sentenced to 60 years on 14 January 2022 for aggravated kidnapping",
+      "Sanctioned by the US Treasury on 17 December 2025, which said he still directs the cartel from prison"
+    ],
+    "state": "GUA",
+    "lat": 20.5175,
+    "lng": -100.98,
+    "sources": [
+      "https://insightcrime.org/mexico-organized-crime-news/jose-antonio-yepez-ortiz-alias-el-marro/",
+      "https://home.treasury.gov/news/press-releases/sb0339",
+      "https://www.infobae.com/mexico/2026/01/27/desde-prision-el-marro-seguiria-dirigiendo-al-cartel-santa-rosa-de-lima/",
+      "https://mexiconewsdaily.com/news/el-marro-sentenced-to-60-years/"
+    ]
+  },
+  {
+    "id": "juan_gerardo_trevino_chavez",
+    "name": "Juan Gerardo Treviño Chávez",
+    "alias": "El Huevo",
+    "cartels": ["zetas", "cdn"],
+    "born": 1982,
+    "died": 0,
+    "role": "Leader of the Cartel del Noreste, the Zetas successor organisation based in Nuevo Laredo",
+    "status_2026": "In US custody; pleaded guilty to 15 counts on 19 November 2024 in San Antonio and faces up to life, with sentencing pending",
+    "bio": "A nephew of Los Zetas leaders Miguel Ángel and Óscar Omar Treviño Morales, and a US citizen by birth, Treviño Chávez took over the Cartel del Noreste in September 2016 and ran it from Nuevo Laredo, Tamaulipas. Under his command the CDN kept the Zetas' methods, including the CDN Tropa del Infierno enforcement unit, armoured vehicles and open firefights with Mexican forces, while trafficking marijuana, cocaine and methamphetamine across the Laredo border crossings and running extortion and migrant smuggling in Nuevo Laredo. Because he held US citizenship, Mexican authorities were able to expel rather than extradite him: he was captured in Nuevo Laredo on 13 March 2022 and handed to US agents within two days, an unusually rapid transfer that triggered days of CDN roadblocks, vehicle burnings and an attack on the US consulate in the city. He was prosecuted jointly by the Western and Eastern Districts of Texas. On 19 November 2024 he pleaded guilty in federal court in San Antonio to 15 counts covering drug trafficking conspiracies, money laundering and the employment of minors in drug operations, and faces a maximum of life imprisonment. Sentencing was initially scheduled for May 2025; no sentence had been publicly reported as of September 2026. The CDN has continued operating in Tamaulipas under other Treviño-linked commanders.",
+    "notable": [
+      "Nephew of Los Zetas leaders Miguel Ángel 'Z-40' and Óscar Omar 'Z-42' Treviño Morales",
+      "Led the Cartel del Noreste from September 2016 until his capture",
+      "Captured in Nuevo Laredo on 13 March 2022 and expelled to the United States within two days because he held US citizenship",
+      "His capture set off CDN roadblocks, arson and an attack on the US consulate in Nuevo Laredo",
+      "Pleaded guilty to 15 counts in San Antonio federal court on 19 November 2024, facing up to life"
+    ],
+    "state": "TAM",
+    "lat": 27.4763,
+    "lng": -99.5164,
+    "sources": [
+      "https://www.justice.gov/usao-wdtx/pr/us-attorneys-western-district-texas-and-eastern-district-texas-announce-former-cartel",
+      "https://www.kens5.com/article/news/crime/drug-cartel-leader-pleads-guilty-san-antonio/273-7650f2d5-729c-404d-bf01-97aa9dd5f466",
+      "https://www.infobae.com/mexico/2024/11/20/estos-son-los-cargos-criminales-de-los-que-el-huevo-trevino-exlider-del-cartel-del-noreste-se-declaro-culpable/",
+      "https://www.ice.gov/news/releases/leader-cartel-del-noreste-arrested-following-ice-hsi-investigation"
+    ]
+  },
+  {
+    "id": "roberto_moyado_esparza",
+    "name": "Roberto Moyado Esparza",
+    "alias": "El Betito",
+    "cartels": ["union_tepito"],
+    "born": 0,
+    "died": 0,
+    "role": "Founder and leader of La Unión Tepito, the dominant criminal group in central Mexico City",
+    "status_2026": "Imprisoned in a Mexican federal prison serving 43 years and nine months; a 2025 appeal cut a separate concurrent sentence by six months",
+    "bio": "Moyado Esparza built La Unión Tepito out of the wholesale markets and tenements of the Tepito barrio in Mexico City's Cuauhtémoc borough, converting a local extortion racket into the capital's most powerful criminal organisation. Under his leadership the group controlled retail drug sales in the Centro Histórico, Condesa, Roma and Zona Rosa nightlife districts, extorted bars, market stalls and pirated-goods vendors, and moved into kidnapping and contract killing, with a documented supply relationship for cocaine and synthetic drugs from larger cartels. His arrest on 8 August 2018 in Mexico City was presented by authorities as the decapitation of the group and was followed by its fragmentation and a long war with the breakaway Anti-Unión Tepito that has driven much of the capital's homicide and disappearance violence since. In December 2022 a Mexico City court sentenced him to 43 years and nine months for a qualified homicide and attempted homicide committed on 1 March 2015 in the Colonia Morelos of the Venustiano Carranza borough; an appellate court confirmed that sentence in December 2023. In April 2025 a collegiate appeals court trimmed six months from a separate concurrent conviction for drug offences, firearms possession and possession of military-issue ammunition. Mexico City security officials say his family has continued to run parts of the organisation during his imprisonment.",
+    "notable": [
+      "Founded and led La Unión Tepito, Mexico City's dominant criminal organisation",
+      "Arrested on 8 August 2018 in Mexico City",
+      "Sentenced in December 2022 to 43 years and nine months for a March 2015 qualified homicide and attempted homicide",
+      "Sentence confirmed on appeal in December 2023; a separate concurrent sentence was reduced by six months in April 2025",
+      "His arrest fragmented La Unión Tepito and fuelled its long war with the breakaway Anti-Unión Tepito"
+    ],
+    "state": "CMX",
+    "lat": 19.445,
+    "lng": -99.125,
+    "sources": [
+      "https://www.proceso.com.mx/nacional/cdmx/2023/12/22/el-betito-de-la-union-tepito-es-sentenciado-43-anos-de-prision-por-homicidio-en-la-morelos-320844.html",
+      "https://www.milenio.com/policia/confirman-sentencia-carcel-betito-union-tepito",
+      "https://mvsnoticias.com/nacional/2025/4/15/tribunal-reduce-condena-el-betito-de-que-va-su-caso-687915.html",
+      "https://lasillarota.com/metropoli/2025/7/9/la-union-tepito-el-betito-sigue-liderando-desde-la-carcel-544786.html"
+    ]
+  },
+  {
+    "id": "hernan_bermudez_requena",
+    "name": "Hernán Bermúdez Requena",
+    "alias": "Comandante H",
+    "cartels": ["barredora", "cjng"],
+    "born": 0,
+    "died": 0,
+    "role": "Former Tabasco security secretary accused of founding and leading La Barredora, a CJNG-aligned criminal group",
+    "status_2026": "In Mexican custody; prosecutors in Tabasco sought a cumulative 154-year sentence at an intermediate hearing in June 2026, with an oral trial pending",
+    "bio": "Bermúdez Requena served as Secretary of Public Security of Tabasco between 2019 and 2024, under governor Adán Augusto López Hernández, later interior minister and Morena's Senate leader. Prosecutors allege that while holding that office he founded and directed La Barredora, a criminal group aligned with the CJNG that ran extortion, kidnapping, fuel theft and drug trafficking across Tabasco and helped move CJNG product through the Gulf coast and into Central America. The case became one of the most damaging corruption scandals of the Sheinbaum era because of its proximity to the governing party's leadership. He fled Mexico on 26 January 2025, flying from Mérida to Panama and then, according to investigators, to Spain, Brazil and finally Paraguay. Interpol issued a red notice on 17 July 2025. Paraguayan police arrested him on 12 September 2025 in Asunción with cash, wine and jewellery; he refused simplified extradition, but Paraguay expelled him and he was flown to Mexico on 17 September 2025. In Tabasco he faces charges of criminal association, aggravated kidnapping and aggravated extortion in case 213/2025, and was separately bound over on 13 April 2026 for embezzlement and is under investigation for forced disappearance. At an intermediate hearing in June 2026 the state prosecutor presented 40 investigation files and requested a cumulative 154-year sentence.",
+    "notable": [
+      "Secretary of Public Security of Tabasco from 2019 to 2024 while allegedly leading La Barredora",
+      "Fled Mexico on 26 January 2025 via Panama, Spain and Brazil to Paraguay",
+      "Interpol red notice issued 17 July 2025; arrested in Paraguay on 12 September 2025",
+      "Expelled from Paraguay and returned to Mexico on 17 September 2025",
+      "Tabasco prosecutors requested a cumulative 154-year sentence at a June 2026 intermediate hearing"
+    ],
+    "state": "TAB",
+    "lat": 17.9895,
+    "lng": -92.9475,
+    "sources": [
+      "https://mexiconewsdaily.com/news/former-tabasco-security-minister-arrested-paraguay-organized-crime-charges/",
+      "https://www.infobae.com/mexico/2026/06/16/caso-hernan-bermudez-requena-que-sigue-en-su-proceso-luego-de-que-la-fiscalia-de-tabasco-solicito-mas-de-150-anos-de-prision/",
+      "https://www.elfinanciero.com.mx/estados/2026/04/13/comandante-h-suma-delitos-vinculan-a-proceso-a-hernan-bermudez-ahora-por-peculado/",
+      "https://en.wikipedia.org/wiki/Hern%C3%A1n_Berm%C3%BAdez_Requena"
+    ]
+  },
+  {
+    "id": "celso_ortega_jimenez",
+    "name": "Celso Ortega Jiménez",
+    "alias": "El Ardilla",
+    "cartels": ["ardillos", "zetas"],
+    "born": 0,
+    "died": 0,
+    "role": "Leader of Los Ardillos, the criminal group dominating the mountain region of central Guerrero",
+    "status_2026": "At large in Guerrero; wanted by the FGR but never captured, with his group's offensive in the Baja Montaña producing at least 76 killings since May 2026",
+    "bio": "Also known as La Vela or El Ardillo Mayor, Celso Ortega Jiménez is one of the sons of Celso Ortega Rosas, a former rural police officer and poppy grower from Quechultenango who founded Los Ardillos in the early 2000s; after the father's murder in 2011 the sons took over. Reporting has linked Ortega Jiménez to an earlier period with Los Zetas. Los Ardillos control opium production, extortion and transport routes across the Chilapa, Quechultenango, Zitlala and Tixtla corridor of central Guerrero, and have fought a long, exceptionally brutal war with Los Rojos and with the region's community police and Indigenous Nahua self-defence forces, punctuated by massacres, decapitations and mass displacement. The group has been repeatedly tied to state and municipal politics: a video released in August 2023 showed Ortega Jiménez meeting the then mayor of Chilpancingo, Norma Otilia Hernández, and his brother Bernardo Ortega Jiménez has served as a state deputy and president of the Guerrero congress. Through the first half of 2026 the organisation pushed east and north toward exits to Puebla and Morelos, intensifying violence in Olinalá, Tlapa, Alpoyeca and Huamuxtitlán. An offensive begun on 6 May 2026 in the Baja Montaña left at least 76 people dead and 25 disappeared, and used explosives dropped from drones, forcing the displacement of 800 to 1,000 people from Indigenous communities.",
+    "notable": [
+      "Son of Los Ardillos founder Celso Ortega Rosas, who was murdered in 2011",
+      "Reported to have been a member of Los Zetas before leading Los Ardillos",
+      "Filmed in August 2023 meeting the then mayor of Chilpancingo, Norma Otilia Hernández",
+      "His brother Bernardo Ortega Jiménez served as a Guerrero state deputy and congress president",
+      "An offensive begun 6 May 2026 in Guerrero's Baja Montaña left at least 76 dead and displaced up to 1,000 Indigenous residents"
+    ],
+    "state": "GRO",
+    "lat": 17.5972,
+    "lng": -99.1786,
+    "sources": [
+      "https://insightcrime.org/mexico-organized-crime-news/ardillos/",
+      "https://www.infobae.com/mexico/2026/05/12/quienes-son-los-ardillos-historia-lideres-y-crimenes-del-grupo-que-desplaza-comunidades-indigenas-en-guerrero/",
+      "https://www.dallasnews.com/espanol/al-dia/mexico/2025/09/04/ardillos-guerrero-celso-ortega-narcos-terror-evelyn-salgado/",
+      "https://www.elfinanciero.com.mx/nacional/2024/02/18/quien-es-y-donde-se-mueve-celso-ortega-el-lider-de-los-ardillos-buscado-por-la-fgr/"
+    ]
+  },
+  {
+    "id": "ismael_zambada_garcia",
+    "name": "Ismael Zambada García",
+    "alias": "El Mayo",
+    "cartels": ["guadalajara", "sinaloa", "mayiza"],
+    "born": 1948,
+    "died": 0,
+    "role": "Co-founder and, for decades, the strategic head of the Sinaloa Cartel",
+    "status_2026": "Serving life imprisonment in the United States; sentenced 20 July 2026 in Brooklyn by Judge Brian Cogan after pleading guilty in August 2025",
+    "bio": "Born 1 January 1948 near El Álamo, Culiacán, Sinaloa, Zambada rose through the Guadalajara Cartel in the 1980s and, after its collapse, co-founded the Sinaloa Cartel with Joaquín Guzmán Loera and others. For nearly four decades he avoided capture entirely, relying on the Sierra Madre, on an unmatched network of political and police protection, and on a deliberate preference for negotiation over spectacle. He gave a single famous interview to Proceso in 2010, telling Julio Scherer García that he was terrified of being captured. His run ended on 25 July 2024 when Joaquín Guzmán López lured him to a meeting, had him bound and sedated, and flew him to a private airfield near El Paso, Texas, where US agents arrested both men. Zambada's lawyer said he had been ambushed and taken against his will; the abduction split the cartel and touched off the Chapitos-Mayiza war. He pleaded not guilty at first, but on 25 August 2025 he pleaded guilty in the Eastern District of New York to racketeering conspiracy and continuing criminal enterprise, after the Justice Department agreed not to seek the death penalty. On 20 July 2026 US District Judge Brian Cogan sentenced him to life in prison in Brooklyn, making him the most senior Mexican trafficker sentenced in the United States since El Chapo in 2019.",
+    "notable": [
+      "Born 1 January 1948 near Culiacán; co-founded the Sinaloa Cartel after the Guadalajara Cartel's collapse",
+      "Evaded capture for roughly four decades, longer than any other Mexican capo of his generation",
+      "Abducted by Joaquín Guzmán López and delivered to US agents near El Paso, Texas, on 25 July 2024",
+      "Pleaded guilty on 25 August 2025 to racketeering conspiracy and continuing criminal enterprise after prosecutors dropped the death penalty",
+      "Sentenced to life imprisonment on 20 July 2026 by Judge Brian Cogan in Brooklyn"
+    ],
+    "state": "SIN",
+    "lat": 24.8091,
+    "lng": -107.394,
+    "sources": [
+      "https://www.aljazeera.com/news/2026/7/20/mexican-drug-lord-ismael-el-mayo-zambada-sentenced-to-life-in-us-prison",
+      "https://www.cnn.com/2026/07/20/americas/mexico-cartel-mayo-sentenced-latam-intl",
+      "https://www.aljazeera.com/news/2025/8/25/once-elusive-mexican-drug-kingpin-el-mayo-zambada-pleads-guilty-in-us",
+      "https://elpasomatters.org/2024/07/25/el-paso-sinaloa-cartel-arrests-ismael-zambada-garcia-joaquin-guzman-lopez-merrick-garland/"
+    ]
+  },
+  {
+    "id": "rafael_caro_quintero",
+    "name": "Rafael Caro Quintero",
+    "alias": "El Narco de Narcos",
+    "cartels": ["guadalajara", "caborca", "sonora"],
+    "born": 1952,
+    "died": 0,
+    "role": "Guadalajara Cartel co-founder, killer of DEA agent Enrique Camarena, later head of the Caborca Cartel",
+    "status_2026": "In US custody at the Metropolitan Detention Center, Brooklyn; pleaded not guilty and prosecutors confirmed in 2025 they will not seek the death penalty",
+    "bio": "Born 3 October 1952 in La Noria, Badiraguato, Sinaloa, Caro Quintero co-founded the Guadalajara Cartel with Miguel Ángel Félix Gallardo and Ernesto Fonseca Carrillo, running vast marijuana plantations including the Búfalo complex in Chihuahua raided in 1984. In retaliation for that raid he orchestrated the February 1985 kidnapping, torture and murder of DEA special agent Enrique 'Kiki' Camarena, an act that transformed US-Mexican security relations. He was arrested in Costa Rica in April 1985 and served 28 years of a 40-year Mexican sentence until a state court ordered his release on procedural grounds in August 2013. He returned to trafficking, building the Caborca Cartel in Sonora and fighting Los Chapitos for the desert corridors into Arizona, and was placed on the FBI Ten Most Wanted list with a $20 million reward. Mexican marines recaptured him on 15 July 2022 in Choix, Sinaloa. On 27 February 2025 Mexico expelled him with 28 other prisoners to the United States, bypassing extradition. Arraigned in Brooklyn federal court, he pleaded not guilty to charges including continuing criminal enterprise and cocaine importation conspiracy. Prosecutors said in March 2025 they might seek the death penalty, but later confirmed they would not do so for him or for Ismael Zambada. His case remained pending as of September 2026.",
+    "notable": [
+      "Co-founded the Guadalajara Cartel, the organisation from which the Sinaloa, Tijuana and Juárez cartels descend",
+      "Ordered the February 1985 torture and murder of DEA agent Enrique 'Kiki' Camarena",
+      "Released by a Mexican state court in August 2013 after 28 years, then rebuilt the Caborca Cartel in Sonora",
+      "Recaptured by the Mexican Navy on 15 July 2022 in Choix, Sinaloa",
+      "Expelled to the United States on 27 February 2025 with 28 other prisoners; pleaded not guilty in Brooklyn and prosecutors later dropped the death penalty"
+    ],
+    "state": "SON",
+    "lat": 30.7167,
+    "lng": -112.1597,
+    "sources": [
+      "https://www.justice.gov/usao-edny/pr/rafael-caro-quintero-narco-narcos-and-murderer-dea-agent-enrique-kiki-camarena-and",
+      "https://www.nbcnews.com/news/us-news/us-wont-seek-death-penalty-mexican-drug-lords-zambada-quintero-rcna223278",
+      "https://abc7ny.com/post/mexico-extradites-notorious-drug-trafficker-convicted-killer-us/15961302/",
+      "https://en.wikipedia.org/wiki/Rafael_Caro_Quintero"
+    ]
+  },
+  {
+    "id": "ricardo_ruiz_velasco",
+    "name": "Ricardo Ruiz Velasco",
+    "alias": "El Doble R",
+    "cartels": ["cjng"],
+    "born": 0,
+    "died": 0,
+    "role": "CJNG regional boss and Grupo Élite commander; a leading contender to succeed El Mencho",
+    "status_2026": "In Mexican custody; captured 11 March 2026 in Mexicali, Baja California, three weeks after El Mencho's death",
+    "bio": "Known as El Doble R, El RR, El R2 and La Tripa, Ruiz Velasco was for years one of the CJNG's most important regional commanders and a commander of the Grupo Élite, the cartel's principal armed wing. He is associated with the CJNG's violent expansion into Jalisco's neighbouring states and with high-impact attacks, including the 2020 killing of Jalisco former governor Aristóteles Sandoval in Puerto Vallarta, in which Mexican investigators identified him as a planner. The US State Department has offered a reward for information leading to his arrest, and he features in US indictments of CJNG leadership. When Nemesio Oseguera Cervantes was killed on 22 February 2026, security analysts and narcocorridos alike named Ruiz Velasco as one of the strongest candidates to inherit the organisation, citing his territorial control, his operational role and his demonstrated capacity for orchestrating large-scale violence. That candidacy lasted seventeen days: on 11 March 2026 he was captured in Mexicali, Baja California, far from CJNG's Jalisco core. His removal, followed six weeks later by the capture of Audias Flores Silva in Nayarit, cleared two of the three leading contenders and helped consolidate the position of Juan Carlos Valencia González, whom US intelligence named as CJNG's leader in July 2026.",
+    "notable": [
+      "Commander of CJNG's Grupo Élite and a senior regional boss",
+      "Identified by Mexican investigators as a planner of the December 2020 killing of former Jalisco governor Aristóteles Sandoval",
+      "Named after El Mencho's death as one of the strongest candidates to lead the CJNG",
+      "Captured 11 March 2026 in Mexicali, Baja California",
+      "His capture, with that of El Jardinero in April 2026, cleared the way for Juan Carlos Valencia González"
+    ],
+    "state": "JAL",
+    "lat": 20.6597,
+    "lng": -103.3496,
+    "sources": [
+      "https://www.state.gov/ricardo-ruiz-velasco",
+      "https://lasillarota.com/guanajuato/estado/2026/3/12/capturan-el-doble-r-principal-heredero-de-el-mencho-590199.html",
+      "https://www.milenio.com/policia/el-doble-r-quien-es-el-lider-regional-del-cjng",
+      "https://es.wikipedia.org/wiki/Ricardo_Ruiz_Velasco"
+    ]
+  },
+  {
+    "id": "andres_manuel_lopez_obrador",
+    "name": "Andrés Manuel López Obrador",
+    "alias": "AMLO",
+    "cartels": ["government"],
+    "born": 1953,
+    "died": 0,
+    "role": "President of Mexico 2018-2024; architect of the 'abrazos, no balazos' security policy",
+    "status_2026": "Retired at his ranch in Palenque, Chiapas; broke his silence with an open letter in June 2026 defending Sheinbaum and appealing to Donald Trump",
+    "bio": "Born 13 November 1953 in Tepetitán, Macuspana, Tabasco, López Obrador won the presidency in 2018 after two previous attempts and governed from 1 December 2018 to 30 September 2024. His security policy, summarised as 'abrazos, no balazos' (hugs, not bullets), rejected the confrontational kingpin strategy of his predecessors in favour of social programmes and non-engagement, while militarising civilian security through the new National Guard and expanding the armed forces' role in infrastructure and customs. Critics point to the October 2019 Culiacanazo, when his government released Ovidio Guzmán López to end a cartel assault on Culiacán, as the emblematic case. He dissolved the Federal Police, cut cooperation with the DEA after the 2020 arrest of General Salvador Cienfuegos in Los Angeles, and pushed through a law restricting foreign agents. Homicides remained near record levels for most of his term while disappearances rose. He faced repeated US reporting, denied by him as fabrication, about alleged Sinaloa Cartel contributions to his 2006 and 2018 campaigns; no formal US investigation was opened. He retired to his ranch in Palenque, Chiapas, and published books including Grandeza. In June 2026 he broke his silence with a long open letter defending President Claudia Sheinbaum amid US-Mexico tensions, later saying he would re-enter public life only if Mexican democracy or sovereignty were threatened.",
+    "notable": [
+      "President of Mexico from 1 December 2018 to 30 September 2024",
+      "Adopted the 'abrazos, no balazos' security doctrine and created the militarised National Guard",
+      "Ordered the release of Ovidio Guzmán López during the October 2019 Culiacanazo",
+      "Forced the return of General Salvador Cienfuegos from US custody in 2020 and curtailed DEA cooperation",
+      "Denied US press reports of alleged cartel funding of his campaigns; no formal US investigation was opened",
+      "Published an open letter from retirement in June 2026 defending Sheinbaum and addressing Donald Trump"
+    ],
+    "state": "CMX",
+    "lat": 19.4326,
+    "lng": -99.1332,
+    "sources": [
+      "https://www.propublica.org/article/mexico-amlo-dea-probe-cartel-campaign-donations",
+      "https://theyucatantimes.com/2026/06/may-the-other-trump-return-amlo-reappears-with-open-letter-amid-u-s-mexico-tensions/",
+      "https://www.britannica.com/biography/Andres-Manuel-Lopez-Obrador",
+      "https://www.latintimes.com/mexican-democracy-under-threat-former-president-amlo-says-he-will-leave-retirement-defend-it-592113"
+    ]
+  },
+  {
+    "id": "claudia_sheinbaum",
+    "name": "Claudia Sheinbaum Pardo",
+    "alias": "",
+    "cartels": ["government"],
+    "born": 1962,
+    "died": 0,
+    "role": "President of Mexico since October 2024; oversaw the shift to intelligence-led confrontation with the cartels",
+    "status_2026": "In office; managing the fallout from El Mencho's killing, the Rocha Moya indictment and sustained US pressure",
+    "bio": "Born 24 June 1962 in Mexico City, an energy engineer and IPCC contributor, Sheinbaum was head of government of Mexico City from 2018 to 2023 before winning the presidency in June 2024 and taking office on 1 October 2024. She inherited López Obrador's political movement but quietly abandoned the core of his security policy. Working through Security Secretary Omar García Harfuch, she adopted an intelligence-led approach built on four stated pillars: consolidating the National Guard, strengthening intelligence and investigative capacity, poverty reduction and federal-state-municipal coordination. Under intense pressure from the Trump administration, which designated Mexican cartels as foreign terrorist organisations and threatened tariffs and unilateral action, her government expelled 29 cartel figures to the United States in February 2025 and a further 26 in August 2025, bypassing extradition procedures. Her government reported a 37 percent drop in the daily homicide rate between September 2024 and the end of 2025, though disappearances rose and critics questioned the figures. Her presidency has faced three severe tests: the assassination of Uruapan mayor Carlos Manzo on 1 November 2025 and the Gen Z protest wave that followed; the US indictment of Sinaloa governor Rubén Rocha Moya on 29 April 2026; and the nationwide CJNG uprising after El Mencho was killed on 22 February 2026.",
+    "notable": [
+      "First woman president of Mexico, in office since 1 October 2024",
+      "Shifted from 'abrazos, no balazos' to intelligence-led operations under Omar García Harfuch",
+      "Her government expelled 29 cartel figures to the US in February 2025 and 26 more in August 2025",
+      "Reported a 37 percent fall in the daily homicide rate between September 2024 and the end of 2025",
+      "Faced nationwide protests after the assassination of Uruapan mayor Carlos Manzo on 1 November 2025",
+      "Managed the national security crisis triggered by the killing of El Mencho on 22 February 2026"
+    ],
+    "state": "CMX",
+    "lat": 19.4326,
+    "lng": -99.1332,
+    "sources": [
+      "https://gbv.wilsoncenter.org/article/claudia-sheinbaums-security-strategy",
+      "https://www.crisisgroup.org/cmt/latin-america-caribbean/mexico/mexico-backing-security-reform-us-pressure-mounts",
+      "https://www.stimson.org/2026/bullets-not-hugs-mexicos-new-old-security-strategy/",
+      "https://en.wikipedia.org/wiki/2026_Mexico_cartel_unrest"
+    ]
+  },
+  {
+    "id": "omar_garcia_harfuch",
+    "name": "Omar Hamid García Harfuch",
+    "alias": "",
+    "cartels": ["government"],
+    "born": 1982,
+    "died": 0,
+    "role": "Mexico's Secretary of Security and Citizen Protection since October 2024; architect of the operations against El Mencho and Los Chapitos",
+    "status_2026": "In office; credited with the February 2026 Tapalpa operation and a wave of high-level captures, and widely seen as a 2030 presidential contender",
+    "bio": "Born 25 February 1982, García Harfuch is the grandson of Marcelino García Barragán, defence secretary during the 1968 Tlatelolco massacre, and a career federal police officer who worked in the Federal Police's intelligence divisions before becoming Mexico City's Secretary of Citizen Security in 2019 under Claudia Sheinbaum. On 26 June 2020 a CJNG hit squad of roughly 30 gunmen ambushed his armoured vehicle on Paseo de la Reforma with rifles and a .50 calibre weapon; he survived with three bullet wounds while two bodyguards and a bystander were killed, and he publicly blamed the CJNG within hours. Appointed federal Security Secretary on 1 October 2024, he built a specialised intelligence and investigation apparatus that has driven the sharpest sustained campaign against cartel leadership in Mexican history: mass seizures of fentanyl laboratories, the dismantling of money-laundering and port-corruption networks, the expulsion of 55 cartel figures to the United States across 2025, the April 2026 operation against El Guano in Durango, the March 2026 capture of Ricardo Ruiz Velasco, the April 2026 capture of Audias Flores Silva and, above all, the 22 February 2026 army operation in Tapalpa that killed the man who had tried to assassinate him six years earlier. His government reports a 37 percent fall in daily homicides.",
+    "notable": [
+      "Survived a CJNG assassination attempt on Paseo de la Reforma, Mexico City, on 26 June 2020",
+      "Mexico City Secretary of Citizen Security 2019-2023 under Claudia Sheinbaum",
+      "Federal Secretary of Security and Citizen Protection since 1 October 2024",
+      "Oversaw the expulsion of 55 cartel figures to the United States during 2025",
+      "Directed the security cabinet during the 22 February 2026 Tapalpa operation that killed El Mencho",
+      "Widely described as an early front-runner for the 2030 Mexican presidency"
+    ],
+    "state": "CMX",
+    "lat": 19.4326,
+    "lng": -99.1332,
+    "sources": [
+      "https://mexiconewsdaily.com/politics/who-is-omar-garcia-harfuch-mexicos-security-supremo/",
+      "https://en.wikipedia.org/wiki/Omar_Garc%C3%ADa_Harfuch",
+      "https://en.wikipedia.org/wiki/2026_Jalisco_operation",
+      "https://www.elfinanciero.com.mx/estados/2026/04/22/harfuch-confirma-operativo-contra-el-guano-hermano-del-chapo-todavia-no-se-confirma-su-detencion/"
+    ]
+  },
+  {
+    "id": "salvador_cienfuegos",
+    "name": "Salvador Cienfuegos Zepeda",
+    "alias": "El Padrino",
+    "cartels": ["government"],
+    "born": 1948,
+    "died": 0,
+    "role": "Secretary of National Defence 2012-2018; arrested in the US on trafficking charges in 2020, then released and exonerated in Mexico",
+    "status_2026": "Free in Mexico and reportedly advising the current defence secretary; reappeared publicly at a Sheinbaum ceremony on 9 February 2025",
+    "bio": "Born 14 June 1948 in Mexico City, Cienfuegos was Secretary of National Defence under President Enrique Peña Nieto from 2012 to 2018, the period of the Ayotzinapa disappearances and the Tlatlaya killings. On 15 October 2020 US agents arrested him at Los Angeles International Airport on charges brought in the Eastern District of New York alleging he had protected the H-2 Cartel of Nayarit, communicating with traffickers through BlackBerry messages under the alias 'El Padrino'. The arrest, carried out without notice to the Mexican government, provoked a diplomatic crisis: López Obrador threatened to curtail cooperation, and in November 2020 Attorney General William Barr moved to dismiss the charges and returned him to Mexico. In January 2021 Mexico's Attorney General's Office exonerated him for lack of evidence and published the US case file, prompting sharp criticism from Washington. The episode led directly to Mexico's 2020 law restricting foreign agents. He remained out of public view for years. On 9 February 2025 he reappeared at the 112th anniversary of the March of Loyalty at Chapultepec Castle, presided over by President Sheinbaum, who said he had been released by US prosecutors for lack of evidence and attended under protocol covering former Military College directors. He is reported to serve as an adviser to Defence Secretary Ricardo Trevilla Trejo, and his name resurfaced in July 2025 around the Ovidio Guzmán proceedings.",
+    "notable": [
+      "Secretary of National Defence of Mexico from 2012 to 2018",
+      "Arrested at Los Angeles airport on 15 October 2020 on US charges of protecting the H-2 Cartel",
+      "Charges dismissed by the US Justice Department in November 2020 and he was returned to Mexico",
+      "Exonerated by Mexico's Attorney General's Office in January 2021, prompting US criticism",
+      "Reappeared publicly at a ceremony presided over by President Sheinbaum on 9 February 2025 and reportedly advises the current defence secretary"
+    ],
+    "state": "CMX",
+    "lat": 19.4326,
+    "lng": -99.1332,
+    "sources": [
+      "https://www.proceso.com.mx/nacional/2025/2/10/salvador-cienfuegos-fue-liberado-por-la-fiscalia-de-estados-unidos-por-falta-de-pruebas-sheinbaum-345350.html",
+      "https://www.jornada.com.mx/2025/02/10/politica/005n2pol",
+      "https://www.infobae.com/mexico/2025/02/10/el-general-salvador-cienfuegos-reaparece-en-evento-de-sheinbaum/",
+      "https://politico.mx/2025/07/12/cienfuegos-el-general-exonerado-por-amlo-vuelve-a-la-polemica-tras-juicio-de-ovidio-guzman/"
+    ]
+  },
+  {
+    "id": "ruben_rocha_moya",
+    "name": "Rubén Rocha Moya",
+    "alias": "",
+    "cartels": ["government"],
+    "born": 1949,
+    "died": 0,
+    "role": "Governor of Sinaloa since 2021; the first sitting Mexican governor indicted by the United States",
+    "status_2026": "Back in office in Sinaloa since 21 August 2026 after a 112-day leave, while under US indictment in the Southern District of New York",
+    "bio": "Born 15 June 1949 in Badiraguato, Sinaloa, a former teacher, university rector and long-time leftist politician, Rocha Moya won the Sinaloa governorship for Morena in 2021 and took office on 1 November 2021. His term has been dominated by the collapse of the Sinaloa Cartel's internal order: he was reportedly scheduled to meet Ismael Zambada García on the day of the 25 July 2024 abduction, and the war between Los Chapitos and La Mayiza that followed pushed Culiacán's homicide rate to record levels and drew tens of thousands of federal troops into the state. On 29 April 2026 federal prosecutors in the Southern District of New York indicted him and nine other current and former Mexican officials on drug and weapons trafficking charges, alleging that he met El Chapo's sons before the 2021 election, promised to install officials friendly to their operations, and that cartel members stole ballot boxes and intimidated opponents to secure his victory; in exchange, prosecutors say, he shielded the organisation from investigation and directed police to safeguard drug and weapons shipments. It was the first time the United States charged a sitting Mexican governor. He denied the allegations, took leave from 1 May 2026, and returned to office on 21 August 2026 after Mexico's Attorney General's Office said it lacked sufficient evidence for charges under Mexican law, with investigations reportedly still open.",
+    "notable": [
+      "Born 15 June 1949 in Badiraguato, Sinaloa; governor of Sinaloa since 1 November 2021",
+      "Reportedly due to meet Ismael Zambada García on 25 July 2024, the day Zambada was abducted",
+      "Indicted on 29 April 2026 in the Southern District of New York with nine other Mexican officials",
+      "First sitting Mexican governor ever charged by the United States",
+      "Took leave from 1 May 2026 and resumed office on 21 August 2026 after Mexico's FGR found insufficient evidence"
+    ],
+    "state": "SIN",
+    "lat": 24.8091,
+    "lng": -107.394,
+    "sources": [
+      "https://www.justice.gov/usao-sdny/pr/governor-sinaloa-and-nine-other-current-and-former-mexican-officials-charged-drug",
+      "https://www.aljazeera.com/news/2026/8/21/mexico-governor-ruben-rocha-returns-to-office-despite-us-criminal-charges",
+      "https://insightcrime.org/news/insight-take-governor-alleged-sinaloa-cartel-ties-criminal-governance/",
+      "https://www.democracynow.org/2026/4/30/headlines/us_prosecutors_indict_sinaloa_governor_ruben_rocha_moya_and_nine_other_mexican_officials"
+    ]
+  },
+  {
+    "id": "carlos_manzo",
+    "name": "Carlos Alberto Manzo Rodríguez",
+    "alias": "El Sombrero",
+    "cartels": ["government"],
+    "born": 1985,
+    "died": 2025,
+    "role": "Independent mayor of Uruapan, Michoacán, whose assassination triggered Mexico's largest security protests in years",
+    "status_2026": "Assassinated 1 November 2025 in Uruapan's main square; seven of his police bodyguards were arrested on 22 November 2025 over the killing",
+    "bio": "Born 9 April 1985, Manzo served as a federal deputy for Morena before breaking with the party and winning the mayoralty of Uruapan, Michoacán's second city, as an independent in 2024 under the banner of the Movimiento del Sombrero. He built a national profile on an openly confrontational line against organised crime in a state divided between the CJNG and Cárteles Unidos, repeatedly demanding federal reinforcements, publishing videos of operations against extortionists in the avocado belt, and criticising both López Obrador's and Sheinbaum's security policies for leaving municipal governments to face cartels alone. He said publicly that he expected to be killed. On the evening of 1 November 2025, during the Festival de las Velas Day of the Dead celebration in Uruapan's main square, a gunman shot him seven times at close range; he was pronounced dead shortly after reaching hospital. One suspected attacker was killed at the scene and two others were detained. His killing set off nationwide anti-government demonstrations through November 2025, including a Gen Z protest movement directed at President Sheinbaum's handling of cartel violence. On 22 November 2025 prosecutors arrested seven members of his security detail, all serving police officers, over their probable involvement. His widow Grecia Quiroz succeeded him as mayor of Uruapan.",
+    "notable": [
+      "Elected mayor of Uruapan, Michoacán, as an independent in 2024 after leaving Morena",
+      "Founded the Movimiento del Sombrero and campaigned openly against cartel extortion in the avocado belt",
+      "Shot seven times and killed on 1 November 2025 during a Day of the Dead festival in Uruapan's main square",
+      "His assassination triggered nationwide protests and a Gen Z protest movement against the Sheinbaum government",
+      "Seven police officers from his own security detail were arrested on 22 November 2025 over the killing",
+      "Succeeded as mayor by his widow, Grecia Quiroz"
+    ],
+    "state": "MIC",
+    "lat": 19.411,
+    "lng": -102.0575,
+    "sources": [
+      "https://mexiconewsdaily.com/news/outspoken-anti-crime-mayor-assassinated-in-uruapan-michoacans-second-largest-city/",
+      "https://www.aljazeera.com/news/2025/11/3/calls-for-justice-after-mexico-mayor-killed-during-day-of-the-dead-festival",
+      "https://www.aljazeera.com/news/2025/11/22/seven-bodyguards-arrested-over-mexico-mayors-assassination",
+      "https://en.wikipedia.org/wiki/Carlos_Manzo"
+    ]
+  },
+  {
+    "id": "javier_valdez_cardenas",
+    "name": "Javier Valdez Cárdenas",
+    "alias": "",
+    "cartels": [],
+    "born": 1967,
+    "died": 2017,
+    "role": "Sinaloa journalist and co-founder of Ríodoce; the most prominent chronicler of the Sinaloa Cartel, murdered in 2017",
+    "status_2026": "Murdered 15 May 2017 in Culiacán; two gunmen convicted, but the alleged mastermind Dámaso López Serrano has never been tried in Mexico",
+    "bio": "Born 14 April 1967 in Culiacán, Sinaloa, Valdez co-founded the weekly Ríodoce in 2003 and reported for La Jornada, becoming the defining chronicler of how drug trafficking shaped everyday Sinaloan life. His books, including Miss Narco, Los morros del narco and Narcoperiodismo, focused on the people the trade consumes rather than on capos. He won the Committee to Protect Journalists' International Press Freedom Award in 2011. On 15 May 2017, days after Ríodoce published an interview touching on the López family's war with Los Chapitos, gunmen intercepted him near the Ríodoce offices in central Culiacán, pulled him from his car and shot him twelve times in broad daylight. The killing became the emblem of Mexico's impunity crisis for journalists. Heriberto Picos Barraza, 'El Koala', who drove the intercepting car, was sentenced to 14 years and eight months in 2020. Juan Francisco Picos Barrueta, 'El Quillo', one of the gunmen, was sentenced to 32 years and three months in June 2021. A third alleged shooter, Luis Ildefonso Sánchez Romero, was himself murdered in September 2017. Mexican federal authorities issued an arrest warrant for Dámaso López Serrano, 'Mini Lic', as the man who ordered the killing, but he is in US custody and has never faced trial in Mexico.",
+    "notable": [
+      "Co-founded the Culiacán weekly Ríodoce in 2003 and reported for La Jornada",
+      "Won the Committee to Protect Journalists International Press Freedom Award in 2011",
+      "Shot twelve times and killed near the Ríodoce offices in Culiacán on 15 May 2017",
+      "Two gunmen convicted: Heriberto Picos Barraza (14 years 8 months, 2020) and Juan Francisco Picos Barrueta (32 years 3 months, 2021)",
+      "Dámaso López Serrano 'Mini Lic' is named in a Mexican arrest warrant as the mastermind but has never been tried for it"
+    ],
+    "state": "SIN",
+    "lat": 24.8091,
+    "lng": -107.394,
+    "sources": [
+      "https://cpj.org/2021/06/murderer-of-mexican-journalist-javier-valdez-sentenced-to-32-years-in-prison/",
+      "https://mexiconewsdaily.com/news/killer-of-sinaloa-journalist-gets-32-years/",
+      "https://www.washingtonpost.com/politics/2026/02/04/javier-valdez-mexican-journalist-killed/",
+      "https://latamjournalismreview.org/articles/three-years-after-murder-one-of-the-killers-of-mexican-journalist-javier-valdez-has-been-sentenced/"
+    ]
+  }
+]
