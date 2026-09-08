@@ -162,23 +162,26 @@ if (OR) {
     // The same person can arrive from several batches under different ids (mencho vs
     // nemesio_oseguera_cervantes), so collapse on the normalized name too and keep the
     // richest record: fact-checked first, then the longer biography.
-    const norm = n => String(n || '').toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '').replace(/[^a-z0-9]+/g, ' ').trim();
+    const parts = n => String(n || '').toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '').replace(/['"]/g, '').split(/[^a-z0-9]+/).filter(p => p.length > 2);
     const rank = f => (f.verified ? 1e6 : 0) + (f.bio || '').length;
-    const byKey = new Map();
-    figs.forEach(f => {
-      for (const k of [f.id && 'id:' + f.id, 'nm:' + norm(f.name)].filter(Boolean)) {
-        const cur = byKey.get(k);
-        if (!cur || rank(f) > rank(cur)) byKey.set(k, f);
-      }
+    // Two records are the same person when the first and last name parts agree and every part of
+    // the shorter name appears in the longer one, so "Omar García Harfuch" and "Omar Hamid García
+    // Harfuch" collapse while distinct siblings stay separate.
+    const same = (a, b) => {
+      const pa = parts(a), pb = parts(b);
+      if (!pa.length || !pb.length) return false;
+      if (pa[0] !== pb[0] || pa[pa.length - 1] !== pb[pb.length - 1]) return false;
+      const [short, long] = pa.length <= pb.length ? [pa, pb] : [pb, pa];
+      return short.every(x => long.includes(x));
+    };
+    const kept = [];
+    figs.sort((a, b) => rank(b) - rank(a)).forEach(f => {
+      const hit = kept.find(k => (f.id && k.id === f.id) || same(k.name, f.name));
+      if (!hit) { kept.push(f); return; }
+      // Keep the richer record but do not lose affiliations the weaker one carried.
+      (f.cartels || []).forEach(c => { if (!(hit.cartels || []).includes(c)) (hit.cartels = hit.cartels || []).push(c); });
     });
-    const winners = new Set(byKey.values());
-    const nseen = new Set();
-    const deduped = figs.filter(f => {
-      if (!winners.has(f)) return false;
-      const k = 'nm:' + norm(f.name);
-      if (nseen.has(k)) return false;
-      nseen.add(k); return true;
-    });
+    const deduped = kept;
     write('figures', 'PLAZA_FIGURES', deduped);
     console.log(`  figures: ${deduped.length} unique (${deduped.filter(f => f.verified).length} fact-checked)`);
   } else console.log('  figures: none (fallback kept)');

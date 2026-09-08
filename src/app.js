@@ -63,13 +63,21 @@
   (function deriveFromLeaders() {
     const slug = n => String(n).toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '').replace(/[^a-z0-9]+/g, '_').replace(/^_|_$/g, '').slice(0, 48);
     const byId = new Map(FIGS.map(f => [f.id, f]));
+    // A researched profile and a leadership record often spell the same person differently
+    // (Nemesio Oseguera Cervantes vs Nemesio Rubén Oseguera Cervantes), so match on the
+    // first and last name parts rather than the whole string.
+    const nameKeys = n => {
+      const parts = String(n).toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '').replace(/['"]/g, '').split(/[^a-z0-9]+/).filter(p => p.length > 2);
+      return parts.length > 1 ? parts[0] + '|' + parts[parts.length - 1] : parts[0] || '';
+    };
+    const haveName = new Set(FIGS.map(f => nameKeys(f.name)).filter(Boolean));
     const derived = new Map();
     Object.values(ORG).forEach(o => {
       if (!o.profile) return;
       (o.profile.leaders || []).forEach(l => {
         if (!l.name || l.name.length < 4) return;
         const id = slug(l.name);
-        if (byId.has(id)) return;
+        if (byId.has(id) || haveName.has(nameKeys(l.name))) return;
         const existing = derived.get(id);
         if (existing) {
           if (!existing.cartels.includes(o.id)) existing.cartels.push(o.id);
@@ -445,8 +453,8 @@
     const row = CONTROL[S.year - YMIN];
     const pres = PRESENCE[S.year - YMIN];
     const ids = Object.keys(pres).filter(k => k !== 'year').sort((a, b) => (row[b] || 0) - (row[a] || 0) || (pres[b] || 0) - (pres[a] || 0));
-    $('#legend').innerHTML = `<button class="legend-head" data-act="legend-toggle" aria-expanded="${S.legendOpen ? 'true' : 'false'}"><span class="eyebrow">Who holds what · ${S.year}</span><span class="eyebrow n">${ids.length}</span><span class="chev" aria-hidden="true"></span></button>
-      <div class="legend-list">${ids.map(id => `<button data-act="hl-org" data-id="${id}" class="${S.highlightOrg === id ? 'on' : ''}"><i class="sw" style="background:${orgColor(id)}"></i><span>${esc(orgOf(id).short)}</span><span class="n">${row[id] || 0}<span class="muted">/${pres[id]}</span></span><span class="bar"><i style="width:${(row[id] || 0) / 32 * 100}%;background:${orgColor(id)}"></i></span></button>`).join('')}</div>
+    $('#legend').innerHTML = `<button class="legend-head" data-act="legend-toggle" aria-expanded="${S.legendOpen ? 'true' : 'false'}" aria-controls="legend-list" title="${S.legendOpen ? 'Hide the legend' : 'Show the legend'}"><span class="eyebrow">Who holds what · ${S.year}</span><span class="eyebrow n">${ids.length}</span><span class="chev" aria-hidden="true"></span></button>
+      <div class="legend-list" id="legend-list">${ids.map(id => `<button data-act="hl-org" data-id="${id}" class="${S.highlightOrg === id ? 'on' : ''}"><i class="sw" style="background:${orgColor(id)}"></i><span>${esc(orgOf(id).short)}</span><span class="n">${row[id] || 0}<span class="muted">/${pres[id]}</span></span><span class="bar"><i style="width:${(row[id] || 0) / 32 * 100}%;background:${orgColor(id)}"></i></span></button>`).join('')}</div>
       <div class="legend-key"><span class="hatch-demo"></span><span>striped: actively contested by the striped group</span><span class="int-demo"><i style="opacity:.3"></i><i style="opacity:.55"></i><i style="opacity:.8"></i><i></i></span><span>brighter fill: more violent (1–5)</span></div>`;
     $('#legend').classList.toggle('open', S.legendOpen);
   }
@@ -860,7 +868,12 @@
     else if (a === 'pin-figure') pin({ kind: 'figure', id: b.dataset.id });
     else if (a === 'unpin') pin(null);
     else if (a === 'hl-org') { S.highlightOrg = S.highlightOrg === b.dataset.id ? null : b.dataset.id; applyHighlight(); renderLegend(); if (S.highlightOrg && ev.detail === 2) pin({ kind: 'org', id: b.dataset.id }); }
-    else if (a === 'legend-toggle') { S.legendOpen = !S.legendOpen; $('#legend').classList.toggle('open', S.legendOpen); b.setAttribute('aria-expanded', S.legendOpen ? 'true' : 'false'); }
+    else if (a === 'legend-toggle') {
+      S.legendOpen = !S.legendOpen;
+      $('#legend').classList.toggle('open', S.legendOpen);
+      b.setAttribute('aria-expanded', S.legendOpen ? 'true' : 'false');
+      try { localStorage.setItem('narco-atlas-legend', S.legendOpen ? '1' : '0'); } catch (e) { /* storage unavailable */ }
+    }
     else if (a === 'toggle-era') { S.eraEvents = !S.eraEvents; $('#tg-era').classList.toggle('on', S.eraEvents); renderEventMarkers(); }
     else if (a === 'zoom') { const d = b.dataset.dir; if (d === 'reset') svg.transition().duration(500).call(zoom.transform, d3.zoomIdentity); else svg.transition().duration(300).call(zoom.scaleBy, d === 'in' ? 1.6 : 1 / 1.6); }
     else if (a === 'open') openModal(b.dataset.modal);
@@ -925,7 +938,9 @@
 
   // ------------------------------------------------------------------ boot
   readHash();
-  if (window.innerWidth <= 920) S.legendOpen = false;
+  // Open on a desktop, closed on a phone where it would cover the map; a stored choice wins.
+  S.legendOpen = window.innerWidth > 920;
+  try { const v = localStorage.getItem('narco-atlas-legend'); if (v !== null) S.legendOpen = v === '1'; } catch (e) { /* storage unavailable */ }
   buildPatterns();
   layoutMap();
   layoutTimeline();
