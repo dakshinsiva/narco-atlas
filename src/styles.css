@@ -230,6 +230,12 @@ svg text { user-select: none; }
 
 /* ---------- Map ---------- */
 .map-wrap { position: relative; background: var(--ocean); min-height: 0; overflow: hidden; }
+/* A soft scrim under the year counter so its text never fights the states behind it. */
+.map-wrap::before {
+  content: ''; position: absolute; left: 0; top: 0; z-index: 1; pointer-events: none;
+  width: min(460px, 62%); height: 200px;
+  background: radial-gradient(125% 105% at 0% 0%, var(--bg) 0%, color-mix(in srgb, var(--bg) 62%, transparent) 42%, transparent 78%);
+}
 .map-wrap svg.map { position: absolute; inset: 0; width: 100%; height: 100%; display: block; }
 .map-wrap svg.map .ground { fill: var(--map-ground); }
 .map-wrap.grabbing { cursor: grabbing; }
@@ -259,7 +265,7 @@ g.plaza text { font-family: var(--f-mono); font-size: 9px; fill: var(--ink); pai
 g.plaza line.lead { stroke: var(--ink); stroke-width: 0.8px; opacity: 0.5; }
 
 .hud {
-  position: absolute; left: 18px; top: 14px; pointer-events: none;
+  position: absolute; left: 18px; top: 14px; pointer-events: none; z-index: 2;
   display: flex; flex-direction: column; gap: 2px;
   max-width: calc(100% - 300px);
 }
@@ -284,7 +290,7 @@ g.plaza line.lead { stroke: var(--ink); stroke-width: 0.8px; opacity: 0.5; }
 .abroad-item .t { color: var(--ink-2); }
 
 .legend {
-  position: absolute; right: 14px; top: 14px; width: 250px; max-width: calc(100% - 32px);
+  position: absolute; right: 14px; top: 14px; z-index: 3; width: 250px; max-width: calc(100% - 32px);
   /* 14px top inset + the 104px zoom stack + its 14px inset + a 16px gap */
   max-height: calc(100% - 148px);
   background: color-mix(in srgb, var(--surface) 88%, transparent);
@@ -318,8 +324,8 @@ g.plaza line.lead { stroke: var(--ink); stroke-width: 0.8px; opacity: 0.5; }
 .legend-key .int-demo { display: inline-flex; gap: 2px; }
 .legend-key .int-demo i { width: 7px; height: 12px; border-radius: 2px; background: var(--ink); }
 
-.zoom-ctl { position: absolute; right: 14px; bottom: 14px; display: flex; flex-direction: column; gap: 4px; }
-.map-foot { position: absolute; left: 18px; bottom: 12px; display: flex; gap: 8px; align-items: center; }
+.zoom-ctl { position: absolute; right: 14px; bottom: 14px; z-index: 3; display: flex; flex-direction: column; gap: 4px; }
+.map-foot { position: absolute; left: 18px; bottom: 12px; z-index: 3; display: flex; gap: 8px; align-items: center; }
 .toggle {
   display: inline-flex; align-items: center; gap: 6px; height: 26px; padding: 0 10px;
   border: 1px solid var(--hair-2); border-radius: 999px; font-size: 12px; font-weight: 600;
@@ -330,7 +336,7 @@ g.plaza line.lead { stroke: var(--ink); stroke-width: 0.8px; opacity: 0.5; }
 .toggle.on .dot { background: var(--accent); }
 
 .intro {
-  position: absolute; left: 18px; bottom: 52px; width: min(360px, calc(100% - 300px));
+  position: absolute; left: 18px; bottom: 52px; z-index: 3; width: min(360px, calc(100% - 300px));
   max-height: calc(100% - 210px); overflow: auto;
   background: color-mix(in srgb, var(--surface) 94%, transparent);
   backdrop-filter: blur(8px);
@@ -571,7 +577,7 @@ details.fold > *:not(summary) { margin-top: 10px; }
   .timeline { order: 2; }
   .mob-tabs { order: 3; position: sticky; top: 52px; z-index: 5; }
   .pane-left, .pane-right { order: 4; }
-  .map-wrap { height: 68vw; min-height: 340px; max-height: 70vh; }
+  .map-wrap { height: 82vw; min-height: 400px; max-height: 76vh; }
   .pane { overflow: visible; }
   .pane-left, .pane-right { border: 0; border-top: 1px solid var(--hair); }
   .pane-left.hide, .pane-right.hide { display: none; }
@@ -588,9 +594,11 @@ details.fold > *:not(summary) { margin-top: 10px; }
   .topbar .actions { flex: 1; min-width: 0; justify-content: flex-end; overflow-x: auto; scrollbar-width: none; gap: 6px; }
   .topbar .actions::-webkit-scrollbar { display: none; }
   .btn { height: 30px; padding: 0 9px; font-size: 12.5px; flex: none; }
-  .hud .year { font-size: 44px; }
-  .hud .year-era { font-size: 10px; margin-top: 5px; }
-  .hud .year-stats { font-size: 11.5px; gap: 7px; }
+  .hud .year { font-size: 40px; }
+  .map-wrap::before { width: min(300px, 74%); height: 132px; }
+  .hud .year-era { font-size: 9.5px; margin-top: 3px; line-height: 1.35; }
+  .hud .year-stats { font-size: 11px; gap: 6px; line-height: 1.3; flex-wrap: wrap; }
+  .hud { gap: 0; left: 12px; top: 10px; }
   .intro { display: none; }
   .timeline { grid-template-columns: 1fr; height: auto; }
   .tl-ctl { flex-direction: row; align-items: center; border-right: 0; border-bottom: 1px solid var(--hair); padding: 8px 12px; }

@@ -254,7 +254,13 @@
     const w = mapWrap.clientWidth, h = mapWrap.clientHeight;
     if (!w || !h) return;
     svg.attr('viewBox', `0 0 ${w} ${h}`);
-    projection.fitExtent([[24, 20], [w - 24, h - 44]], states);
+    // On a narrow map the year counter would sit on top of Baja California, so start the
+    // drawing below it instead of letting the two share the same pixels.
+    const hudEl = $('#hud');
+    const narrow = w < 900;
+    const topInset = narrow && hudEl ? Math.min(h * 0.42, hudEl.offsetHeight + 22) : 20;
+    const rightInset = narrow ? 24 : 24;
+    projection.fitExtent([[24, topInset], [w - rightInset, h - 44]], states);
     states.features.forEach(f => centroids.set(f.properties.id, path.centroid(f)));
     gStates.selectAll('path.state').data(states.features, d => d.properties.id).join('path').attr('class', 'state').attr('d', path)
       .attr('tabindex', 0).attr('role', 'button').attr('aria-label', d => C.STATES[d.properties.id])
@@ -439,6 +445,7 @@
   }
 
   // ------------------------------------------------------------------ HUD, legend, era, intro
+  let lastHudH = 0;
   function renderHUD() {
     const e = eraAt(S.year);
     const evs = EV_BY_YEAR.get(S.year) || [];
@@ -448,6 +455,13 @@
     $('#hud').innerHTML = `<div class="year">${S.year}</div><div class="year-era">${esc(e.title)} · ${e.from}–${e.to}</div>
       <div class="year-stats"><span><b>${evs.length}</b> events</span><span><b>${contested}</b> contested states</span>${h ? `<span><b>${fmtInt(h.count)}</b> homicides${partialYear(h) ? ' so far' : ''}</span>` : ''}</div>
       ${abroad.length ? `<div class="abroad"><span class="eyebrow">Beyond the map</span>${abroad.slice(0, 4).map(x => `<button class="abroad-item" data-act="pin-event" data-id="${x.id}"><span class="d">${esc(placeName(x.state) === 'Nationwide' ? 'Nationwide' : x.city)}</span><span class="t">${esc(truncate(x.title, 54))}</span></button>`).join('')}${abroad.length > 4 ? `<span class="muted" style="font-size:11px">+${abroad.length - 4} more in the inspector</span>` : ''}</div>` : ''}`;
+  }
+  function hudHeightChanged() {
+    const el = $('#hud');
+    if (!el) return false;
+    const h = el.offsetHeight;
+    if (Math.abs(h - lastHudH) > 4) { lastHudH = h; return true; }
+    return false;
   }
   function renderLegend() {
     const row = CONTROL[S.year - YMIN];
@@ -806,9 +820,12 @@
     const changed = y !== S.year;
     S.year = y;
     if (changed && S.pinned && S.pinned.kind === 'event' && !keepPin) { /* keep event pinned; it just shows in its own year */ }
+    renderHUD();
+    // A taller or shorter HUD changes how much room the map has on a phone.
+    if (mapWrap.clientWidth < 900 && hudHeightChanged()) layoutMap();
     renderMap(animate !== false);
     renderEventMarkers();
-    renderHUD(); renderLegend(); renderEra(); renderCursor(); renderInspector();
+    renderLegend(); renderEra(); renderCursor(); renderInspector();
     if (S.hover) { /* refresh tooltip content if pointer still over a state */ }
     updateHash();
   }
@@ -942,8 +959,9 @@
   S.legendOpen = window.innerWidth > 920;
   try { const v = localStorage.getItem('narco-atlas-legend'); if (v !== null) S.legendOpen = v === '1'; } catch (e) { /* storage unavailable */ }
   buildPatterns();
+  renderHUD();
   layoutMap();
   layoutTimeline();
-  renderHUD(); renderLegend(); renderEra(); renderInspector(); renderIntro();
+  renderLegend(); renderEra(); renderInspector(); renderIntro();
   applyHighlight();
 })();
