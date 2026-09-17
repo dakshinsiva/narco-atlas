@@ -798,7 +798,7 @@
       ${NARR.epilogue_2026 ? `<h3>Where things stand, September 2026</h3><p>${esc(NARR.epilogue_2026)}</p>` : ''}
       <h3>Most-cited sources</h3><div class="table-wrap"><table><tbody>${domains.map(([d, n]) => `<tr><td>${esc(d)}</td><td class="mono">${n}</td></tr>`).join('')}</tbody></table></div>
       <h3>Built by</h3>
-      <p>Dakshin Siva. Code and data on <a href="https://github.com/dakshinsiva/narco-atlas" target="_blank" rel="noopener">GitHub</a>; questions and corrections to <a href="mailto:anudeep.cr7@gmail.com">anudeep.cr7@gmail.com</a>. Boundaries are INEGI state limits rendered with D3; the research was compiled and fact-checked with Claude Code.</p>
+      <p>Dakshin Siva. Code and data on <a href="https://github.com/dakshinsiva/narco-atlas" target="_blank" rel="noopener">GitHub</a>; questions and corrections to <a href="mailto:dakshinrajsiva@gmail.com">dakshinrajsiva@gmail.com</a>. Boundaries are INEGI state limits rendered with D3; the research was compiled and fact-checked with Claude Code.</p>
       <h3>Caveats</h3><p>Assigning a single dominant organization to a whole state flattens real complexity, especially in Guerrero, Michoacán and Mexico City, where dozens of cells operate. Dates for clandestine events are often disputed; where sources disagree the atlas follows the most widely corroborated account and flags the rest. Boundaries follow INEGI state limits.</p>
     </div>`;
   }

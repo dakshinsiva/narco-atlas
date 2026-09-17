@@ -61,7 +61,7 @@ Assigning one dominant organization per state is a deliberate simplification; th
 
 ## Built by
 
-Dakshin Siva — [github.com/dakshinsiva](https://github.com/dakshinsiva) · anudeep.cr7@gmail.com
+Dakshin Siva — [github.com/dakshinsiva](https://github.com/dakshinsiva) · dakshinrajsiva@gmail.com
 
 Research compiled and adversarially fact-checked with Claude Code. Boundaries are INEGI state limits; the map is rendered with D3. Licensed MIT (see `LICENSE`); the underlying reporting belongs to the outlets cited in each record.
 
