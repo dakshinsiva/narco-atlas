@@ -55,7 +55,7 @@ That writes `og.png` (1200x630) and `og-square.png`, which the Open Graph and Tw
 | `data/geo.js` | State boundaries (TopoJSON, ISO 3166-2:MX ids) |
 | `src/config.js` | Canonical organization ids, colors, families, state names, era bounds |
 
-The research was compiled from public reporting and scholarship by parallel research agents, then re-checked by adversarial fact-check passes that challenged dates, places and attributions. Items whose verification did not complete carry `confidence: "medium"` or lower, and the merge script (`scratch/merge.js`) marks which batches were fact-checked. The fact-check log is in `scratch/research-log.md`.
+The research was compiled from public reporting and scholarship by parallel research agents, then re-checked by adversarial fact-check passes that challenged dates, places and attributions. Items whose verification did not complete carry `confidence: "medium"` or lower, and the merge script (`tools/merge-research.js`) marks which batches were fact-checked. The fact-check log is in `docs/fact-check-log.md`.
 
 Assigning one dominant organization per state is a deliberate simplification; the notes, plazas and secondary organizations carry the nuance.
 
