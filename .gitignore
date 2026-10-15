@@ -4,3 +4,4 @@ scratch/
 .vercel/
 .DS_Store
 *.log
+.claude/

@@ -1,11 +1,15 @@
 // Merges workflow output files into the atlas data modules.
-// Usage: node scratch/merge.js [tasksDir]
+// Usage: node tools/merge-research.js <tasksDir>
 // Picks, for each research family (events / territory / orgs), the most complete .output file,
 // prefers fact-checked ("verified") batches over raw research, and falls back to the existing
 // data files for anything still missing. Writes a research log to scratch/research-log.md.
 const fs = require('fs');
 const path = require('path');
-const tasksDir = process.argv[2] || '/private/tmp/claude-501/-Users-dakshinsiva-dux/a4c2426b-00c0-46d0-97ed-b6fb572c7184/tasks';
+const tasksDir = process.argv[2];
+if (!tasksDir || !fs.existsSync(tasksDir)) {
+  console.error('usage: node tools/merge-research.js <tasksDir>   (directory of research-agent .output files; set WF_DIR for workflow journals)');
+  process.exit(1);
+}
 
 const loadGlobal = (file, name) => {
   if (!fs.existsSync(file)) return null;
@@ -27,8 +31,8 @@ const outputs = fs.readdirSync(tasksDir).filter(f => f.endsWith('.output')).map(
 // A workflow only writes its .output when the whole run finishes. Agents that already returned are
 // recorded in journal.jsonl, so read those too and treat them as loose batches to fill any gap.
 const loose = { figures: [], orgs: [], states: [], events: [] };
-const wfDir = process.env.WF_DIR || path.join(process.env.HOME, '.claude/projects/-Users-dakshinsiva-dux/a4c2426b-00c0-46d0-97ed-b6fb572c7184/subagents/workflows');
-if (fs.existsSync(wfDir)) {
+const wfDir = process.env.WF_DIR || '';
+if (wfDir && fs.existsSync(wfDir)) {
   for (const run of fs.readdirSync(wfDir)) {
     const j = path.join(wfDir, run, 'journal.jsonl');
     if (!fs.existsSync(j)) continue;
